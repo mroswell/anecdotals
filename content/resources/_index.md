@@ -3,13 +3,17 @@ title: "Resources"
 date: 2021-06-24T12:14:34+06:00
 description: "Resources"
 ---
-## Frequently Asked Questions {#id .className style="margin:auto " class="mb-5"}
+## &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Resources for Viewers&nbsp;&nbsp;&nbsp;&nbsp; {#id .className style="margin:auto " class="mb-5"}
 
-{{< faq "What brought you to music?" >}}
-Music is a part of my family heritage. My mother was a music major. My aunt on my father’s side studied at Julliard. They are gone, but the music they passed down remains. My family has at least a century-old tradition of writing songs for family occasions. When I have more time I’ll add some more of the family songs to the collection!
+{{< faq "REACT19" >}}
+http://react19.org
+
+React19 is a science-based non-profit
+offering financial, physical, and emotional support for those suffering from longterm Covid-19 vaccine adverse events globally.
 {{</ faq >}}
 
 {{< faq "Do you have a particular favorite of the family occasion songs?" >}}
+{{< rumble >}}
 I think my favorite line was one that my mother wrote half a century ago, to the tune of Get Me to the Church on Time. “For such a [nachas](https://yiddishwordoftheweek.tumblr.com/post/315848528/naches-%D7%A0%D7%97%D7%AA), Just move your [tuchas](https://www.merriam-webster.com/dictionary/tuchus), and get Barbara to the [shul](https://www.lexico.com/en/definition/shul) on time. We know that Michael will be just great. But as for Barbara, [Gei gezunterheit](https://twitter.com/YiddishProject/status/288319328623943682)…”
 {{</ faq >}}
 

@@ -1,146 +1,35 @@
 {{ define "main" }}
-THIS IS A TEST
-<!-- Banner Start -->
-{{ if .Site.Data.homepage.bio.enable }}
-{{ with .Site.Data.homepage.bio }}
-<section class="section banner" style="background-image:url('{{ site.Params.bio.bg_image | absURL }}')">
-<!--  <section class="banner-creative" style="background-image:url('{{ site.Params.banner.bg_image | absURL }}')">-->
 
-  <div class="container">
-    <div class="row align-items-center justify-content-between">
-      <div class="col-lg-8 mb-4 mb-lg-0 order-1 order-lg-0">
-        <h1 class="title">I'm a <span class="cd-words-wrapper text-color">freelance developer</span> and&nbsp;I'm also passionate about <span class="cd-words-wrapper text-color">nutrition education</span>, <span class="cd-words-wrapper text-color">music</span>, <span class="cd-words-wrapper text-color">nature</span>, and <span class="cd-words-wrapper text-color">climate resilience</span>.</h1>
-      </div>
-      {{ with site.Params.bio.image }}
-      <div class="col-lg-3 col-md-4 col-sm-6 order-0 order-lg-1 mb-5 mb-lg-0">
-        <img loading="lazy" class="rounded banner-image img-fluid" src="{{ . | absURL }}" alt="{{ site.Title }}">
-      </div>
-      {{ end }}
-    </div>
-
-  </div>
-</section>
-{{ end }}
-{{ end }}
 <!-- Banner End -->
 <section class="project">
   <div class="container mt-4">
     <div class="row">
-    <div class="col-lg-9">
-    <div class="row shuffle-wrapper project-gallery">
-      {{ range (where .Site.RegularPages "Type" "music")}}
-      <div class="col-lg-5 col-6 mb-4 shuffle-item" data-groups="[&quot;{{ .Params.Category | urlize }}&quot;]">
-        <div class="position-relative inner-box">
-          <div class="image position-relative">
-            <img src="{{ .Params.Image | absURL }}" alt="project-image" class="img-fluid w-100 d-block">
-            <div class="overlay-box">
-              <a class="project-image popup-gallery" href="{{ .Params.Image | absURL }}">
-                <i class="ti-plus"></i>
-              </a>
-              <div class="overlay-inner">
-                <a class="overlay-content" href="{{ .Permalink }}">
-                  <h5 class="mb-0">{{ .Title }}</h5>
-                  <p>{{ .Params.Category | humanize }}</p>
-                </a>
-              </div>
+    <div class="col-lg-12">
+
+      <section class="section banner pb-lg-0">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-lg-8 text-center">
+             <p>This is the Blurb about Anecdotals</p>
+
+              <script>!function(r,u,m,b,l,e){r._Rumble=b,r[b]||(r[b]=function(){(r[b]._=r[b]._||[]).push(arguments);if(r[b]._.length==1){l=u.createElement(m),e=u.getElementsByTagName(m)[0],l.async=1,l.src="https://rumble.com/embedJS/u17ewet"+(arguments[1].video?'.'+arguments[1].video:'')+"/?url="+encodeURIComponent(location.href)+"&args="+encodeURIComponent(JSON.stringify([].slice.apply(arguments))),e.parentNode.insertBefore(l,e)}})}(window, document, "script", "Rumble");</script>
+
+              <div id="rumble_v14fbzt"></div>
+              <script>
+                Rumble("play", {"video":"v14fbzt","div":"rumble_v14fbzt"});</script>
             </div>
           </div>
         </div>
-      </div>
-      {{ end }}
-    </div>
+      </section>
+
      </div>
-    <div class="col-lg-3">
-      <p>My mother and aunt were exceptionally gifted in music, and I grew up with a love of music. I learned to play guitar and piano as a child and performed in school musicals. I still enjoy performing on occasion.  I also write songs and light verse to entertain my friends, family, and community.</p>
-        <p>Like my mom, I attended Connecticut College. I studied botany, and became certified to teach high school science. After college, I pursued a  technical career doing software development and data visualization. I wrote and published a book on the Drupal web development framework, called Drupal 5 Views.</p>
-      <p>My current projects combine my interest in technology and my desire to advance climate change mitigation and social justice.</p>
-        <p>Ever since I can remember, I've been fascinated by the beauty and power of nature. I consider nature as the best guide for figuring out how to live our best lives.</p>
-      <p>I developed a strong interest in nutrition. I’m certified as a nutrition educator, and I advocate for eating a primarily whole-food, plant-based diet. My perspective is that nutrition — combined with regular exercise, spending time in nature, and participating meaningfully in one’s community — is the best way to live a happy and healthy life.
-        <p>I have been living in Baltimore since 1984, and consider it my hometown.</p>
-    </div>
+<!--    <div class="col-lg-3">-->
+<!--      <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. </p>-->
+<!--    </div>-->
   </div>
 </div>
 
 </section>
-<!-- project start -->
-{{ if .Site.Data.homepage.project.enable }}
-<section class="project">
-  <div class="container">
-    <div class="row mb-5">
-      <div class="col-10">
-        <div class="btn-group btn-group-toggle " data-toggle="buttons">
-          <label class="btn active ">
-            <input type="radio" name="shuffle-filter" value="all" checked="checked" />All Projects
-          </label>
-          {{ $categories := slice }}
-          {{ range (where .Site.RegularPages "Type" "project") }}
-          {{ $categories = $categories | append .Params.Category }}
-          {{ end }}
-          {{ range ( $categories | uniq ) }}
-          <label class="btn">
-            <input type="radio" name="shuffle-filter" value="{{ . | urlize }}" />{{ . | humanize }}
-          </label>
-          {{ end }}
-        </div>
-      </div>
-    </div>
 
-    <div class="row shuffle-wrapper project-gallery">
-      {{ range (where .Site.RegularPages "Type" "project")}}
-      <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[&quot;{{ .Params.Category | urlize }}&quot;]">
-        <div class="position-relative inner-box">
-          <div class="image position-relative">
-            <img src="{{ .Params.Image | absURL }}" alt="project-image" class="img-fluid w-100 d-block">
-            <div class="overlay-box">
-              <a class="project-image popup-gallery" href="{{ .Params.Image | absURL }}">
-                <i class="ti-plus"></i>
-              </a>
-              <div class="overlay-inner">
-                <a class="overlay-content" href="{{ .Permalink }}">
-                  <h5 class="mb-0">{{ .Title }}</h5>
-                  <p>{{ .Params.Category | humanize }}</p>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      {{ end }}
-    </div>
-  </div>
-</section>
-
-
-{{ end }}
-<!-- project End -->
-
-<!-- Service start -->
-{{ if .Site.Data.homepage.service.enable }}
-{{ with .Site.Data.homepage.service }}
-<section class="section service-home border-top">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-6">
-        <h2 class="mb-2 ">{{ .title | markdownify }}</h2>
-        <p class="mb-5">{{ .content | markdownify }}</p>
-      </div>
-    </div>
-
-    <div class="row">
-      {{ range .service_item }}
-      <div class="col-lg-4">
-        <div class="service-item mb-5">
-          <i class="{{ .icon }}"></i>
-          <h4 class="my-3">{{ .name | markdownify }}</h4>
-          <p>{{ .content | markdownify }}</p>
-        </div>
-      </div>
-      {{ end }}
-    </div>
-  </div>
-</section>
-<!-- service end -->
-{{ end }}
-{{ end }}
 
 {{ end }}
