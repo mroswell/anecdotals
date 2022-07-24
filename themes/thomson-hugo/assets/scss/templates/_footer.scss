@@ -1,0 +1,24 @@
+.footer{
+	padding: 20px 0px;
+	background: #F5F5F5; /*#efefef;/* $black; */
+	p,a {
+		color: $primary-color;
+	}
+}
+.footer-widget{
+
+	a{
+		color: $primary-color; /*rgba(255,255,255,.5);*/
+		text-transform: capitalize;
+		&:hover{
+			color: #2FBF74;
+		}
+	}
+	i[class^="ti-"], i[class*=" ti-"] {
+		font-size: 1.2rem;
+	}
+
+
+
+}
+
