@@ -66,6 +66,11 @@ name = "Resources"
 url = "resources"
 weight = 6
 
+[[menu.main]]
+name = "Bonus"
+url = "bonus"
+weight = 8
+
 # default parameters
 [params]
 home = "Home"
@@ -77,12 +82,12 @@ address = "Baltimore MD"
 # meta description
 author = "Marjorie Roswell"
 description = "Marjorie Roswell is a freelance developer and nutrition educator. She is passionate about music, nature, and climate resilience."
-# google analitycs
+# google analytics
 google_analytics_id = "199716792-1"#/*"G-12N3B6CB0D"*/
 # contact form action
 contact_form_action = "https://formspree.io/f/xbjqkjyj" # contact form works with : https://formspree.io
 # copyright
-copyright = "&copy; 2021 Marjorie Roswell"
+copyright = "&copy; 2022 Sharp Films"
 
 # preloader
 [params.preloader]
@@ -100,19 +105,17 @@ map_marker = "images/marker.png"
 # social site
 [[params.social]]
 icon = "ti-facebook"
-link = "https://www.facebook.com/marjorie.roswell"
+link = "https://www.facebook.com/"
 
 [[params.social]]
 icon = "ti-twitter-alt"
-link = "https://twitter.com/mroswell"
+link = "https://twitter.com/"
 
 [[params.social]]
 icon = "ti-instagram"
-link = "https://www.instagram.com/marjorie_roswell/"
+link = "https://www.instagram.com//"
 
-[[params.social]]
-icon = "ti-github"
-link = "https://www.github.com/mroswell/"
+
 
 ## disable categories
 #[Taxonomies]
@@ -120,12 +123,3 @@ link = "https://www.github.com/mroswell/"
 #
 #disableKinds = ["taxonomy"]
 
-# Instagram feed
-[params.instafeed]
-enable = true
-access_token = "IGQVJXakg1ekItRTdzOHoyY2NBQTBvLXJJTl9pTkZAYbFFRMU8wRV9adlp6djJrM2Roa0NFQVJNVXlKbzhBWkJqbjVGNGJmSnRLYWpkNzg5eTlJNURLOWJfY0V2Mk9EUlc1NXlUV1hRUzQxQ245SmI5dQZDZD"
-#access_token = "IGQVJYeUk4YWNIY1h4OWZANeS1wRHZARdjJ5QmdueXN2RFR6NF9iYUtfcGp1NmpxZA3RTbnU1MXpDNVBHTzZAMOFlxcGlkVHBKdjhqSnUybERhNWdQSE5hVmtXT013MEhOQVJJRGJBRURn"
-
-[params.layout]
-# instagram layout
-instafeed = "1" # 1 or 2

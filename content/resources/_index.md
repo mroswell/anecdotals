@@ -13,7 +13,6 @@ offering financial, physical, and emotional support for those suffering from lon
 {{</ faq >}}
 
 {{< faq "Do you have a particular favorite of the family occasion songs?" >}}
-{{< rumble >}}
 I think my favorite line was one that my mother wrote half a century ago, to the tune of Get Me to the Church on Time. “For such a [nachas](https://yiddishwordoftheweek.tumblr.com/post/315848528/naches-%D7%A0%D7%97%D7%AA), Just move your [tuchas](https://www.merriam-webster.com/dictionary/tuchus), and get Barbara to the [shul](https://www.lexico.com/en/definition/shul) on time. We know that Michael will be just great. But as for Barbara, [Gei gezunterheit](https://twitter.com/YiddishProject/status/288319328623943682)…”
 {{</ faq >}}
 
