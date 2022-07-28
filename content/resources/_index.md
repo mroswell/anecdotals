@@ -12,22 +12,35 @@ React19 is a science-based non-profit
 offering financial, physical, and emotional support for those suffering from longterm Covid-19 vaccine adverse events globally.
 {{</ faq >}}
 
-{{< faq "Do you have a particular favorite of the family occasion songs?" >}}
-I think my favorite line was one that my mother wrote half a century ago, to the tune of Get Me to the Church on Time. “For such a [nachas](https://yiddishwordoftheweek.tumblr.com/post/315848528/naches-%D7%A0%D7%97%D7%AA), Just move your [tuchas](https://www.merriam-webster.com/dictionary/tuchus), and get Barbara to the [shul](https://www.lexico.com/en/definition/shul) on time. We know that Michael will be just great. But as for Barbara, [Gei gezunterheit](https://twitter.com/YiddishProject/status/288319328623943682)…”
+{{< faq "Post Vaccine Treatment" >}}
+https://covid19criticalcare.com/covid-19-protocols/i-recover-post-vaccine-treatment/
+
+Therapies for Post Vaccine Syndrome based on the experience of frontline doctors
 {{</ faq >}}
 
-{{< faq "Do you play an instrument?" >}}
-I play the guitar, and I plunk on a ukulele or a piano. In a pinch, I can be found playing plastic spoons to accompany a jam session.
+{{< faq "COVID vaccines are not covered by the Vaccine Injury Compensation Program" >}}
+https://www.hrsa.gov/vaccine-compensation/covered-vaccines
+
+Watch this space for updates (for instance, if congress members propose legislation to change this omission).
 {{</ faq >}}
 
-{{< faq "Do you have perfect pitch?" >}}
-No. But when I listen to a piano, I often know what notes are being played. When I listen to a guitar, I often know what chords are being played.
+{{< faq "Report an adverse event to VAERS" >}}
+https://vaers.hhs.gov/esub/index.jsp
 {{</ faq >}}
 
-{{< faq "Hmm... Freelance developer. What specifically do you do?" >}}
-I’m a web developer who has always been especially interested in data visualization. I love making interactive maps, and I’ve built a number of “scorecard maps” for advocacy organizations.
+{{< faq "Dearly Discarded Podcast" >}}
+https://react19.org/podcasts/
+
+Dearly Discarded is a podcast dedicated to people who have been silenced. Participants are from all walks of life, but they have one thing in common: they participated in the “safe and effective” medicine that they believed would protect them during the pandemic. Now they are injured and ignored. Please listen with an open mind and heart. Hear these voices and share their stories with your friends and family.
 {{</ faq >}}
 
-{{< faq "What are you working on now?" >}}
-I’m currently working on building a website called Safer Or Toxic, to help individuals, schools, hospitals and janitorial companies to sort out which disinfectants are safer for human health. I think it’ll be a cool site, and I'll be able to launch it in July. It’s a project of the Maryland Pesticide Education Network.
+{{< faq "Google Search for Vaccine Injury" >}}
+https://www.google.com/search?q=vaccine+injury
+{{</ faq >}}
+
+
+{{< faq "Covid-19 Vaccine Injuries — Preventing Inequities in Compensation" >}}
+https://www.nejm.org/doi/full/10.1056/NEJMp2034438
+
+Article in the New England Journal of Medicine
 {{</ faq >}}
