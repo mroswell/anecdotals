@@ -66,10 +66,10 @@ name = "Resources"
 url = "resources"
 weight = 6
 
-[[menu.main]]
-name = "Bonus"
-url = "bonus"
-weight = 8
+# [[menu.main]]
+# name = "Bonus"
+# url = "bonus"
+# weight = 8
 
 # default parameters
 [params]
@@ -87,7 +87,7 @@ google_analytics_id = "199716792-1"#/*"G-12N3B6CB0D"*/
 # contact form action
 contact_form_action = "https://formspree.io/f/xbjqkjyj" # contact form works with : https://formspree.io
 # copyright
-copyright = "&copy; 2022 Sharp Films"
+copyright = "&copy; 2022 Square Films"
 
 # preloader
 [params.preloader]
