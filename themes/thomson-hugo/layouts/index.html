@@ -21,6 +21,10 @@
 
                 <script>
                 Rumble("play", {"video":"vwmsdv","div":"rumble_vwmsdv"});</script>
+                {{range .Site.Params.social }}
+                <ul><li class="list-inline-item"><a href="{{ .link | safeURL }}" target="_blank"><i style="vertical-align:bottom;" class="{{ .icon }} mr-3"></i></a>
+                </li></ul>
+                {{ end }}
             </div>
           </div>
 

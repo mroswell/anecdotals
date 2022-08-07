@@ -105,15 +105,13 @@ map_marker = "images/marker.png"
 # social site
 [[params.social]]
 icon = "ti-facebook"
-link = "https://www.facebook.com/"
+link = "https://www.facebook.com/sharer.php?u=http%3A%2F%2Fanectodalsmovie.com&t=thisissharetext"
 
 [[params.social]]
 icon = "ti-twitter-alt"
 link = "https://twitter.com/"
 
-[[params.social]]
-icon = "ti-instagram"
-link = "https://www.instagram.com//"
+
 
 
 
