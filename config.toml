@@ -112,7 +112,7 @@ link = "https://www.facebook.com/sharer.php?u=http%3A%2F%2Fanectodalsmovie.com&t
 
 [[params.social]]
 icon = "ti-twitter-alt"
-link = "https://twitter.com/intent/tweet?url=https%3A%2F%2Fwww.anecdontalsmovie.com%2F&text=%22Anecdotals%22%20Movie%3A%20A%20compassionate%20exploration%20of%20the%20nuanced%20vaccine%20debate.+While+the+vaccine+debate+grows+more+divided%2C+those+with+adverse+reactions+get+stuck+in+the+middle."
+link = "https://twitter.com/intent/tweet?url=https%3A%2F%2Fwww.anecdotalsmovie.com%2F&text=%22Anecdotals%22%20Movie%3A%20A%20compassionate%20exploration%20of%20the%20nuanced%20vaccine%20debate.+While+the+vaccine+debate+grows+more+divided%2C+those+with+adverse+reactions+get+stuck+in+the+middle."
 
 [[params.social]]
 icon = "fab fa-telegram-plane"
