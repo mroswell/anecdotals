@@ -30,6 +30,8 @@ link = "plugins/owl-carousel/owl.theme.default.min.css"
 #link = "plugins/animated-text/animated-text.css"
 [[params.plugins.css]]
 link = "plugins/magnific-popup/magnific-popup.css"
+[[params.plugins.css]]
+link="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
 
 
 # js plugin
@@ -51,7 +53,8 @@ link = "plugins/instafeed/instafeed.min.js"
 #link = "plugins/animated-text/animated-text.js"
 #[[params.plugins.js]]
 #link = "plugins/google-map/gmap.js"
-
+[[params.plugins.js]]
+link="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/js/fontawesome.min.js"
 
 # menu
 [[menu.main]]
@@ -111,7 +114,13 @@ link = "https://www.facebook.com/sharer.php?u=http%3A%2F%2Fanectodalsmovie.com&t
 icon = "ti-twitter-alt"
 link = "https://twitter.com/"
 
+[[params.social]]
+icon = "fab fa-telegram-plane"
+link = "https://t.me/share/url?url=https://anecdotalsmovie.com&text=%22Anecdotals%20Movie%22%20A%20compassionate%20exploration%20of%20the%20nuanced%20vaccine%20debate"
 
+[[params.social]]
+icon = "fab fa-whatsapp"
+link = "https://api.whatsapp.com/send/?text=%22Anecdotals%20Movie%22%20A%20compassionate%20exploration%20of%20the%20nuanced%20vaccine%20debate.&app_absent=0"
 
 
 
