@@ -11,8 +11,8 @@ paginate = 20
 # Banner
 [Languages.en.bio]
 bg_image = "images/banner-shape.png"
-title = "I'm a freelance developer, and&nbsp;I'm also passionate about nutrition education, music, nature, and climate resilience."
-image = "images/marjorieroswell.jpg"
+title = "Anecdotals Movie: A compassionate exploration of the nuanced vaccine debate. While the vaccine debate grows more divided, those with adverse reactions get stuck in the middle."
+image = "images/anecdotals.jpeg"
 
 
 # css plugins
