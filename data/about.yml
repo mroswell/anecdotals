@@ -4,17 +4,17 @@ author:
   image : "images/trees1_cropped2.jpg"
   name : "Anecdotals Movie"
   bio : "Freelance Developer. Nutrition Educator. Climate Activist. Musician."
-  content : "Lorum Ipsum"
-  # signature : "images/signature.png"
-  favourite_topic:
-    - "Interactive Data Visualizations"
-    - "Nature-Based Systems"
-    - "Light Verse"
-    - "Beauty"
+#  content : "Lorum Ipsum"
+#  # signature : "images/signature.png"
+#  favourite_topic:
+#    - "Interactive Data Visualizations"
+#    - "Nature-Based Systems"
+#    - "Light Verse"
+#    - "Beauty"
 
 #################### Education #######################
 education:
-  enable : true
+  enable : false
   title : "Education."
   education_item:
     - name : "B.A., Botany, Connecticut College, New London, CT, 1984"
@@ -25,7 +25,7 @@ education:
 
 #################### Experience #######################
 experience:
-  enable : true
+  enable : false
   title : "Work Experiences."
   experience_item:
     # experience item
@@ -84,7 +84,7 @@ Produced publications for city-wide distribution."
     # experience item
     - name : "Recycling Coordinator, Citizens Planning and Housing Association"
       duration : "1990 – 1991"
-      content : "Provided central contact for recycling information in Baltimore. Maintained ongoing database of almost 1000 recycling contacts. Conceived of, published and distributed The Baltimore Recycler, a monthly newsletter.
+      content : "Provided central screenings for recycling information in Baltimore. Maintained ongoing database of almost 1000 recycling contacts. Conceived of, published and distributed The Baltimore Recycler, a monthly newsletter.
 Produced and updated the Recycling Guide (4 editions, over 17,000 copies distributed). Coordinated Mobile Recycling Exhibit. Developed substantial recycling library. Promoted recycling at community associations, schools, hearings, as well as on television and radio."
 
     # experience item
@@ -116,9 +116,9 @@ skill:
 
 ################## call to action ####################
 cta:
-  enable : false
-  title : "Want to discuss about any project?"
+  enable : true
+  title : "Do you want to schedule a screening?"
   button:
     enable : true
-    label : "contact me"
-    link : "contact"
+    label : "screenings"
+    link : "screenings"
