@@ -74,6 +74,11 @@ name = "Screenings"
 url = "screenings"
 weight = 10
 
+[[menu.main]]
+name = "Donate"
+url = "donate"
+weight = 15
+
 # [[menu.main]]
 # name = "Bonus"
 # url = "bonus"
