@@ -33,6 +33,35 @@
   </div>
 </section>
 {{ end }}
+
+{{ with .Site.Data.articles.references }}
+<section class="section-sm about">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-2 mb-4">
+        <h3 class="mb-2">ARTICLE AND RESEARCH REFERENCES</h3>
+      </div>
+      <div class="col-lg-6">
+        <div class="row">
+          <div class="rb-container">
+          <ul class="rb">
+          {{ range .articles }}
+          <li class="rb-item" ng-repeat="itembx" style="text-indent: -4.4em; padding-left: 5em;">
+          <div class="item-title">
+              &nbsp;<button type="button" class="btn btn-outline-dark btn-sm btn-white">
+              <a target="_blank" href="{{ .source }}">Link</a>
+            </button> {{.description}}</div>
+
+          </li>
+          {{ end }}
+          </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
 <!-- About End -->
 
 
