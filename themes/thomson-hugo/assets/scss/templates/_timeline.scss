@@ -1,0 +1,87 @@
+.container .rb {
+  background: #492bbd; /* #232931;*/
+  border-top: 28px solid #492bbd;
+  border-right: 10px solid #492bbd;
+  width: 540px;
+  height: auto;
+  margin: 0 auto;
+  position: relative;
+  margin-top: 10%;
+  box-shadow: 2px 5px 20px rgba(119, 119, 119, 0.5);
+}
+
+
+.rightbox .rb {
+  padding: 0em 34rem 0em 0em;
+  height: 100%;
+}
+
+.rb-container {
+  font-family: "PT Sans", sans-serif;
+  width: 50%;
+  margin: auto;
+  display: block;
+  position: relative;
+}
+
+.rb-container ul.rb {
+  margin: 2.5em 0;
+  padding: 0;
+  display: inline-block;
+}
+
+.rb-container ul.rb li {
+  list-style: none;
+  margin: auto;
+  margin-left: 2em;
+  min-height: 50px;
+  border-left: 1px dashed #fff;
+  padding: 0 0 50px 30px;
+  position: relative;
+}
+
+.rb-container ul.rb li:last-child {
+  border-left: 0;
+}
+
+.rb-container ul.rb li::before {
+  position: absolute;
+  left: -11px;
+  top: 5px;
+  content: " ";
+  border: 8px solid rgba(255, 255, 255, 1);
+  border-radius: 500%;
+  background:  #492bbd; /* #50d890;*/
+  height: 20px;
+  width: 20px;
+  transition: all 200ms ease-in-out;
+}
+
+.rb-container ul.rb li:hover::before {
+  border-color: #232931;
+  transition: all 200ms ease-in-out;
+}
+
+ul.rb li .timestamp {
+  color: white; /*#50d890;*/
+  position: relative;
+  width: 100px;
+  font-size: 12px;
+  font-variant: small-caps;
+  margin-left: .6em;
+}
+
+.item-title {
+  color: #fff;
+}
+
+.rb .btn {
+  border-radius: 20px;
+  padding: 6px 16px
+}
+
+.btn a {color: mediumslateblue;}
+
+.btn:hover {
+  background-color:black;
+}
