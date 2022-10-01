@@ -34,7 +34,7 @@
 </section>
 {{ end }}
 
-{{ with .Site.Data.articles.references }}
+{{ with .Site.Data.articles_titles.references }}
 <section class="section-sm articles">
   <div class="container">
     <div class="row">
@@ -47,11 +47,13 @@
           <ul class="rb">
           {{ range .articles }}
           <li class="rb-item" ng-repeat="itembx" style="text-indent: -4.4em; padding-left: 5em;">
+            <span class="timestamp">
+              {{.publication}}
+            </span><br>
           <div class="item-title">
               &nbsp;<button type="button" class="btn btn-outline-dark btn-sm btn-white">
               <a target="_blank" href="{{ .source }}">Link</a>
-            </button> {{.description}}</div>
-
+            </button> {{.title}}</div>
           </li>
           {{ end }}
           </ul>
