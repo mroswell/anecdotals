@@ -18,18 +18,18 @@ image = "images/anecdotals.jpeg"
 # css plugins
 [[params.plugins.css]]
 link = "plugins/bootstrap/bootstrap.min.css"
-[[params.plugins.css]]
-link = "plugins/slick/slick.css"
+# [[params.plugins.css]]
+# link = "plugins/slick/slick.css"
 [[params.plugins.css]]
 link = "plugins/themify/css/themify-icons.css"
-[[params.plugins.css]]
-link = "plugins/owl-carousel/owl.carousel.min.css"
-[[params.plugins.css]]
-link = "plugins/owl-carousel/owl.theme.default.min.css"
-#[[params.plugins.css]]
-#link = "plugins/animated-text/animated-text.css"
-[[params.plugins.css]]
-link = "plugins/magnific-popup/magnific-popup.css"
+# [[params.plugins.css]]
+# link = "plugins/owl-carousel/owl.carousel.min.css"
+# [[params.plugins.css]]
+# link = "plugins/owl-carousel/owl.theme.default.min.css"
+# #[[params.plugins.css]]
+# #link = "plugins/animated-text/animated-text.css"
+# [[params.plugins.css]]
+# link = "plugins/magnific-popup/magnific-popup.css"
 [[params.plugins.css]]
 link="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
 
@@ -39,20 +39,20 @@ link="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
 link = "plugins/jQuery/jquery.min.js"
 [[params.plugins.js]]
 link = "plugins/bootstrap/bootstrap.min.js"
-[[params.plugins.js]]
-link = "plugins/slick/slick.min.js"
-[[params.plugins.js]]
-link = "plugins/owl-carousel/owl.carousel.min.js"
-[[params.plugins.js]]
-link = "plugins/shuffle/shuffle.min.js"
-[[params.plugins.js]]
-link = "plugins/magnific-popup/magnific-popup.min.js"
-[[params.plugins.js]]
-link = "plugins/instafeed/instafeed.min.js"
-#[[params.plugins.js]]
-#link = "plugins/animated-text/animated-text.js"
-#[[params.plugins.js]]
-#link = "plugins/google-map/gmap.js"
+# [[params.plugins.js]]
+# link = "plugins/slick/slick.min.js"
+# [[params.plugins.js]]
+# link = "plugins/owl-carousel/owl.carousel.min.js"
+# [[params.plugins.js]]
+# link = "plugins/shuffle/shuffle.min.js"
+# [[params.plugins.js]]
+# link = "plugins/magnific-popup/magnific-popup.min.js"
+# [[params.plugins.js]]
+# link = "plugins/instafeed/instafeed.min.js"
+# [[params.plugins.js]]
+# link = "plugins/animated-text/animated-text.js"
+# [[params.plugins.js]]
+# link = "plugins/google-map/gmap.js"
 [[params.plugins.js]]
 link="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/js/fontawesome.min.js"
 
@@ -82,7 +82,7 @@ weight = 15
 [[menu.main]]
 name = "References"
 url = "references"
-weight = 4
+weight = 12
 
 # default parameters
 [params]
