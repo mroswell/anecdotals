@@ -78,13 +78,17 @@ ul.rb li .timestamp {
 
 .rb .btn {
   border-radius: 20px;
-  padding: 6px 14px
+  padding: 6px 14px;
+  width: 57px;
+  height: 24px;
+  display: inline-block;
 }
 
-.btn a {color: mediumslateblue;}
+.rb .btn a {color: mediumslateblue;}
 
-.btn:hover {
-  background-color:black;
+.rb .btn:hover {
+  background-color: black;
+  color:white;
 }
 
 .videos h3, .articles h3 {
