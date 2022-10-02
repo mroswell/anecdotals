@@ -11,7 +11,7 @@ references:
       type-general: articles
       est_time: '1899-12-30T07:41:00.000Z'
       notes:
-      source: www.fda.gov/media/148542/download
+      source: http://www.fda.gov/media/148542/download
       publication: FDA CBER/OVRR
       title: Emergency Use Authorization (EUA) Amendment for an Unapproved Product Review Memorandum
     - type: Corporate
@@ -109,7 +109,7 @@ references:
       type-general: articles
       est_time: '1899-12-30T19:33:00.000Z'
       notes:
-      source: www.vaers.hhs.gov/about.html
+      source: http://www.vaers.hhs.gov/about.html
       publication: HHS
       title: About VAERS
     - type: Journal
