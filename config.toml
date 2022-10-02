@@ -82,7 +82,7 @@ weight = 15
 [[menu.main]]
 name = "References"
 url = "references"
-weight = 8
+weight = 4
 
 # default parameters
 [params]
