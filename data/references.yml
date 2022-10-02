@@ -1,0 +1,507 @@
+references:
+  articles:
+    - type: Video Government
+      type-general: videos
+      est_time: '1899-12-30T00:10:22.000Z'
+      description: FDA Stakeholder Call - Janet Woodcock
+      program: FDA
+      source: https://www.youtube.com/watch?v=gicInQofP-E
+      publication: FDA
+      title: FDA Stakeholder Call - Janet Woodcock
+    - type: Video
+      type-general: videos
+      est_time: '1899-12-30T00:11:20.000Z'
+      description: NIH - Vaccine Questions and Answers with Dr. Francis Collins
+      program: NIH
+      source: https://www.youtube.com/watch?v=CePmI_2EUgU
+      publication: NIH
+      title: NIH - Vaccine Questions and Answers with Dr. Francis Collins
+    - type: Video
+      type-general: videos
+      est_time: '1899-12-30T00:11:59.000Z'
+      description: The - BMJ - Brook Jackson Whistle Blower
+      program: The BMJ
+      source: https://www.youtube.com/watch?v=RaLxhFiOBYk
+      publication: The BMJ
+      title: The - BMJ - Brook Jackson Whistle Blower
+    - type: Video
+      type-general: videos
+      est_time: '1899-12-30T00:13:04.000Z'
+      description: FDA Stakeholder Call - Peter Marks COVID-19 Vaccine for Adolescents
+      program: FDA
+      source: https://www.youtube.com/watch?v=gicInQofP-E
+      publication: FDA
+      title: FDA Stakeholder Call - Peter Marks COVID-19 Vaccine for Adolescents
+    - type: Video
+      type-general: videos
+      est_time: '1899-12-30T14:14:00.000Z'
+      description: |-
+        Lindell TV, the absolute truth- emerald
+        Dr Naomi Wolf Shares SHOCKING New Pfizer Discoveries
+      program: Lindell TV or Daily Clout
+      source: https://www.youtube.com/watch?v=zNOgDAzm03I
+      publication: Lindell TV or Daily Clout
+      title: |-
+        Lindell TV, the absolute truth- emerald
+        Dr Naomi Wolf Shares SHOCKING New Pfizer Discoveries
+    - type: Video
+      type-general: videos
+      est_time: '1899-12-30T20:47:00.000Z'
+      description: |-
+        Spectrum News 1
+        VAERS lead Jon Su defubes VAERS
+      program: Spectrum News 1 Milwaukee
+      source: https://spectrumnews1.com/wi/milwaukee/news/2022/01/06/doctor-pushes-back-against-misuse-of-vaers-data-by-anti-vax-groups#
+      publication: Spectrum News 1 Milwaukee
+      title: |-
+        Spectrum News 1
+        VAERS lead Jon Su defubes VAERS
+    - type: Video
+      type-general: videos
+      est_time: '1899-12-30T00:34:18.000Z'
+      description: |-
+        Russell Brand YouTube,
+        Doctors are bieng censored
+      program: |-
+        Russell Brand
+        YouTube channel
+      source: https://www.youtube.com/watch?v=cBH005RSqh4&list=PL5BY9veyhGt7mdZ4kH-Wl5klUGYCknv8R&index=29
+      publication: |-
+        Russell Brand
+        YouTube channel
+      title: |-
+        Russell Brand YouTube,
+        Doctors are bieng censored
+    - type: Video
+      type-general: videos
+      est_time: '1899-12-30T00:37:33.000Z'
+      description: |-
+        MSNBC - Rachel Maddow,
+        Pediatrician, "Vax your kids"
+      program: MSNBC
+      source: https://www.youtube.com/watch?v=aBqRh35BJBI
+      publication: MSNBC
+      title: |-
+        MSNBC - Rachel Maddow,
+        Pediatrician, "Vax your kids"
+    - type: Video
+      type-general: videos
+      est_time: '1899-12-30T00:37:42.000Z'
+      description: |-
+        CBS - Mornings
+        Walensky no risk for kids
+      program: CBS Mornings
+      source: https://www.youtube.com/watch?v=IR9rjRRcD2s
+      publication: CBS Mornings
+      title: |-
+        CBS - Mornings
+        Walensky no risk for kids
+    - type: Video
+      type-general: videos
+      est_time: '1899-12-30T00:38:20.000Z'
+      description: |-
+        FDA - Stakeholder call
+        Janet Woodcock, Myocarditis clip 1
+      program: FDA
+      source: https://www.youtube.com/watch?v=_j8ziaOpl7o
+      publication: FDA
+      title: |-
+        FDA - Stakeholder call
+        Janet Woodcock, Myocarditis clip 1
+    - type: Video
+      type-general: videos
+      est_time: '1899-12-30T00:38:54.000Z'
+      description: |-
+        FDA - Stakeholder call
+        Peter Marks on Myocarditis clip 2
+      program: FDA
+      source: https://www.youtube.com/watch?v=_j8ziaOpl7o
+      publication: FDA
+      title: |-
+        FDA - Stakeholder call
+        Peter Marks on Myocarditis clip 2
+    - type: Video
+      type-general: videos
+      est_time: '1899-12-30T00:39:22.000Z'
+      description: |-
+        FDA - Stakeholder call
+        Peter Marks on Myocarditis clip 3
+      program: FDA
+      source: https://www.youtube.com/watch?v=_j8ziaOpl7o
+      publication: FDA
+      title: |-
+        FDA - Stakeholder call
+        Peter Marks on Myocarditis clip 3
+    - type: Video
+      type-general: videos
+      est_time: '1899-12-30T00:41:45.000Z'
+      description: FDA - meeting to vote on 5-11 vaccines
+      program: FDA
+      source: https://www.youtube.com/watch?v=K4IsVePD8_c
+      publication: FDA
+      title: FDA - meeting to vote on 5-11 vaccines
+    - type: Video
+      type-general: videos
+      est_time: '1899-12-30T00:41:54.000Z'
+      description: |-
+        ZDogg MD YouTube
+        Dr. OFFIT "worth it to vax kids"
+      program: |-
+        ZDOGG MD
+        YouTube channel
+      source: https://www.youtube.com/watch?v=PLo2Wwa3NNA
+      publication: |-
+        ZDOGG MD
+        YouTube channel
+      title: |-
+        ZDogg MD YouTube
+        Dr. OFFIT "worth it to vax kids"
+    - type: Video
+      type-general: videos
+      est_time: '1899-12-30T00:42:25.000Z'
+      description: John Campbell YouTube
+      program: |-
+        Dr. John Campbell
+        YouTube channel
+      source: https://www.youtube.com/watch?v=uIFSvnB1WlQ
+      publication: |-
+        Dr. John Campbell
+        YouTube channel
+      title: John Campbell YouTube
+    - type: Video
+      type-general: videos
+      est_time: '1899-12-30T00:59:46.000Z'
+      description: |-
+        White House Press Briefing
+        Fauci talks about nasal spread NOT equal in vax/unvax
+      program: The White House
+      source: https://www.youtube.com/watch?v=Sa0M8SLwNKQ
+      publication: The White House
+      title: |-
+        White House Press Briefing
+        Fauci talks about nasal spread NOT equal in vax/unvax
+    - type: Video
+      type-general: videos
+      est_time: '1899-12-30T01:00:58.000Z'
+      description: |-
+        White House Press Briefing clip from Yahoo Finance
+        Fauci talks about nasal spread equal in vax/unvax
+      program: |-
+        Yahoo Finance
+        (the white house?)
+      source: https://www.youtube.com/watch?v=mP9iHyj1uiU
+      publication: |-
+        Yahoo Finance
+        (the white house?)
+      title: |-
+        White House Press Briefing clip from Yahoo Finance
+        Fauci talks about nasal spread equal in vax/unvax
+    - type: Video
+      type-general: videos
+      est_time: '1899-12-30T01:08:28.000Z'
+      description: Drbeen Medical Lectures
+      program: |-
+        Drbeen Medical Lectures
+        YouTube channel
+      source: https://www.youtube.com/watch?v=9XGpe6MTaFg
+      publication: |-
+        Drbeen Medical Lectures
+        YouTube channel
+      title: Drbeen Medical Lectures
+    - type: Video
+      type-general: videos
+      est_time: '1899-12-30T01:11:14.000Z'
+      description: |-
+        Russell Brand YouTube
+        FDA is funded by Pharma
+      program: |-
+        Russell Brand
+        YouTube channel
+      source: https://youtu.be/7fQ6JklHjBc
+      publication: |-
+        Russell Brand
+        YouTube channel
+      title: |-
+        Russell Brand YouTube
+        FDA is funded by Pharma
+    - type: Video
+      type-general: videos
+      est_time: '1899-12-30T01:11:39.000Z'
+      description: |-
+        Vinay Prasad MD MPH
+        Bad CDC study
+      program: |-
+        Vinay Prasad MD MPH
+        YouTube channel
+      source: https://www.youtube.com/watch?v=2C6524soTnA
+      publication: |-
+        Vinay Prasad MD MPH
+        YouTube channel
+      title: |-
+        Vinay Prasad MD MPH
+        Bad CDC study
+    - type: Journal
+      type-general: articles
+      est_time: '1899-12-30T07:29:00.000Z'
+      description: NEJM - Vaccine in Adolescents
+      program:
+      source: https://www.nejm.org/doi/10.1056/NEJMoa2107456
+      publication: New England Journal of Medicine
+      title: Safety, Immunogenicity, and Efficacy of the BNT162b2 Covid-19 Vaccine in
+        Adolescents
+    - type: Journal
+      type-general: articles
+      est_time: '1899-12-30T07:41:00.000Z'
+      description: FDA EUA Amendment - Adolescents
+      program:
+      source: www.fda.gov/media/148542/download
+      publication: FDA CBER/OVRR
+      title: Emergency Use Authorization (EUA) Amendment for an Unapproved Product Review
+        Memorandum
+    - type: Corporate
+      type-general: articles
+      est_time: '1899-12-30T08:35:00.000Z'
+      description: AstraZeneca Clinical Trials Website
+      program:
+      source: https://astrazenecagrouptrials.pharmacm.com/ST/Submission/Search
+      publication: AstraZeneca
+      title: AstraZeneca Clinical Trials Website
+    - type: Journal
+      type-general: articles
+      est_time: '1899-12-30T09:00:00.000Z'
+      description: NEJM - AstraZeneca Trial
+      program:
+      source: https://www.nejm.org/doi/10.1056/NEJMoa2105290
+      publication: New England Journal of Medicine
+      title: Phase 3 Safety and Efficacy of AZD1222 (ChAdOx1 nCoV-19) Covid-19 Vaccine
+    - type: Journal
+      type-general: articles
+      est_time: '1899-12-30T10:43:00.000Z'
+      description: NEJM - Moderna Trial Efficacy
+      program:
+      source: https://www.nejm.org/doi/full/10.1056/NEJMoa2113017
+      publication: New England Journal of Medicine
+      title: Efficacy of the mRNA-1273 SARS-CoV-2 Vaccine at Completion of Blinded Phase
+        (Moderna Trial Efficacy)
+    - type: Journal
+      type-general: articles
+      est_time: '1899-12-30T10:43:00.000Z'
+      description: NEJM - Pfizer Trial Efficacy
+      program:
+      source: https://www.nejm.org/doi/full/10.1056/NEJMoa2110345
+      publication: New England Journal of Medicine
+      title: Safety and Efficacy of the BNT162b2 mRNA Covid-19 Vaccine through 6 Months
+    - type: Journal
+      type-general: articles
+      est_time: '1899-12-30T11:53:00.000Z'
+      description: NYT - Pfizer early data... 90% effective
+      program:
+      source: https://www.nytimes.com/2020/11/09/health/covid-vaccine-pfizer.html
+      publication: New York Times
+      title: Pfizer’s Early Data Shows Vaccine Is More Than 90% Effective
+    - type: Journal
+      type-general: articles
+      est_time: '1899-12-30T12:00:00.000Z'
+      description: NEJM - Safety Efficacy Pfizer
+      program:
+      source: https://www.nejm.org/doi/full/10.1056/NEJMoa2034577
+      publication: New England Journal of Medicine
+      title: Safety and Efficacy of the BNT162b2 mRNA Covid-19 Vaccine
+    - type: Journal
+      type-general: articles
+      est_time: '1899-12-30T12:08:00.000Z'
+      description: BMJ - Article Whistleblower
+      program:
+      source: https://www.bmj.com/content/375/bmj.n2635
+      publication: British Medical Journal
+      title: 'Covid-19: Researcher blows the whistle on data integrity issues in Pfizer’s
+        vaccine trial'
+    - type: Media
+      type-general: articles
+      est_time: '1899-12-30T14:14:00.000Z'
+      description: REUTERS - Judge orders release of Pfizer docs
+      program:
+      source: https://www.reuters.com/legal/government/paramount-importance-judge-orders-fda-hasten-release-pfizer-vaccine-docs-2022-01-07/
+      publication: Reuters
+      title: "‘Paramount importance’: Judge orders FDA to hasten release of Pfizer vaccine
+        docs"
+    - type: Journal
+      type-general: articles
+      est_time: '1899-12-30T19:33:00.000Z'
+      description: VAERS webpage about
+      program:
+      source: www.vaers.hhs.gov/about.html
+      publication: HHS
+      title: About VAERS
+    - type: Journal
+      type-general: articles
+      est_time: '1899-12-30T20:20:00.000Z'
+      description: VAERS webpage - limitations
+      program:
+      source: https://vaers.hhs.gov/data/dataguide.html
+      publication: HHS
+      title: Guide to Interpreting VAERS Data
+    - type: Journal
+      type-general: articles
+      est_time: '1899-12-30T21:00:00.000Z'
+      description: CDC WONDER - adverse reaction search
+      program:
+      source: https://wonder.cdc.gov/controller/datarequest/D8
+      publication: CDC
+      title: CDC WONDER - adverse reaction search
+    - type: Journal
+      type-general: articles
+      est_time: '1899-12-31T01:12:00.000Z'
+      description: PUBLIC HEALTH EMERGENCY- PREP act
+      program:
+      source: https://www.phe.gov/emergency/events/COVID19/COVIDVaccinators/Pages/PREP-Act-Immunity-from-Liability-for-COVID-19-Vaccinators.aspx
+      publication: HHS
+      title: PREP Act Immunity from Liability for COVID-19 Vaccinators
+    - type: Media
+      type-general: articles
+      est_time: '1899-12-31T10:24:00.000Z'
+      description: Jay Bhattacharya statement quoted by Russell Brand
+      program:
+      source: https://www.commonsense.news/p/a-warning-from-shanghai?s=r&triedSigningIn=true
+      publication: Substack
+      title: 'A Warning From Shanghai: A new California bill threatens to strip doctors
+        of their medical licenses for saying things the state doesn’t like.'
+    - type: Government
+      type-general: articles
+      est_time: '1899-12-31T10:24:00.000Z'
+      description: 'California Proposed Law #2098 discussed by Jay'
+      program:
+      source: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202120220AB2098
+      publication: California Legislative Information
+      title: 'AB-2098 Physicians and surgeons: unprofessional conduct.'
+    - type: Government
+      type-general: articles
+      est_time: '1899-12-31T14:07:00.000Z'
+      description: CDC headline and definition myocarditis
+      program:
+      source: https://www.cdc.gov/coronavirus/2019-ncov/vaccines/safety/myocarditis.html?s_cid=11374:myocarditis%20children%20covid%20vaccine:sem.ga:p:RG:GM:gen:PTN:FY21
+      publication: CDC
+      title: Myocarditis and Pericarditis After mRNA COVID-19 Vaccination
+    - type: Journal
+      type-general: articles
+      est_time: '1899-12-31T14:07:00.000Z'
+      description: JAMA myocarditis by age
+      program:
+      source: https://jamanetwork.com/journals/jama/fullarticle/2788346
+      publication: Journal of the American Medical Association
+      title: Myocarditis Cases Reported After mRNA-Based COVID-19 Vaccination in the US
+        From December 2020 to August 2021
+    - type: Government
+      type-general: articles
+      est_time: '1899-12-31T14:29:00.000Z'
+      description: FDA/CDC Myocarditis info
+      program:
+      source: https://www.fda.gov/media/159228/download
+      publication: FDA VRBPAC
+      title: Update on myocarditis following mRNA COVID-19 vaccination
+    - type: Government
+      type-general: articles
+      est_time: '1899-12-31T16:26:00.000Z'
+      description: CA.Gov vax requirement for schools
+      program:
+      source: https://www.gov.ca.gov/2021/10/01/california-becomes-first-state-in-nation-to-announce-covid-19-vaccine-requirements-for-schools/
+      publication: State of California
+      title: California Becomes First State in Nation to Announce COVID-19 Vaccine Requirements for Schools
+    - type: Media
+      type-general: articles
+      est_time: '1899-12-31T16:36:00.000Z'
+      description: 'ABC news headline: CA delay student mandates'
+      program:
+      source: https://abcnews.go.com/US/california-delay-covid-19-vaccine-mandate-students/story?id=84093350
+      publication: ABC News
+      title: California to delay COVID-19 vaccine mandate for students
+    - type: Journal
+      type-general: articles
+      est_time: '1899-12-31T18:29:00.000Z'
+      description: NEJM- Singapore kids study
+      program:
+      source: https://www.nejm.org/doi/full/10.1056/NEJMoa2203209?query=TOC&cid=NEJM+eToc%2C+July+21%2C+2022+DM1270826_NEJM_Non_Subscriber&bid=1076921524
+      publication: New England Journal of Medicine
+      title: Effectiveness of BNT162b2 Vaccine against Omicron in Children 5 to 11 Years
+        of Age (Singapore Study)
+    - type: Journal
+      type-general: articles
+      est_time: '1899-12-30T01:09:10.000Z'
+      description: NIH - Study
+      program:
+      source: https://www.medrxiv.org/content/10.1101/2022.05.16.22274439v1
+      publication: medRxiv Preprint
+      title: Neuropathic symptoms with SARS-CoV-2 vaccination
+    - type: Media
+      type-general: articles
+      est_time: '1899-12-30T01:10:26.000Z'
+      description: AXIOS - NIH joint owns Moderna
+      program:
+      source: https://www.axios.com/2020/06/25/moderna-nih-coronavirus-vaccine-ownership-agreements
+      publication: Axios
+      title: The NIH claims joint ownership of Moderna's coronavirus vaccine
+    - type: Media
+      type-general: articles
+      est_time: '1899-12-30T01:11:10.000Z'
+      description: UConn Today User drug fees
+      program:
+      source: https://today.uconn.edu/2021/05/why-is-the-fda-funded-in-part-by-the-companies-it-regulates-2/#
+      publication: UConn Today
+      title: Why is the FDA Funded in Part by the Companies It Regulates?
+    - type: Journal
+      type-general: articles
+      est_time: '1899-12-30T01:11:15.000Z'
+      description: Science FDAs revolving door, Charles Piller
+      program:
+      source: https://www.science.org/doi/10.1126/science.361.6397.21
+      publication: Science
+      title: Is FDA's revolving door open too wide?
+    - type: Journal
+      type-general: articles
+      est_time: '1899-12-30T01:11:32.000Z'
+      description: ProPublica - FDA repays industry by rushing risky drugs to market,
+        Caroline Chen
+      program:
+      source: https://www.propublica.org/article/fda-repays-industry-by-rushing-risky-drugs-to-market
+      publication: ProPublica
+      title: FDA Repays Industry by Rushing Risky Drugs to Market
+    - type: Journal
+      type-general: articles
+      est_time: '1899-12-30T01:11:46.000Z'
+      description: Vinay Prassad- Tablet CDC abandoned science
+      program:
+      source: https://www.tabletmag.com/sections/science/articles/how-the-cdc-abandoned-science
+      publication: Tablet
+      title: How the CDC Abandoned Science
+    - type: Journal
+      type-general: articles
+      est_time: '1899-12-30T01:11:51.000Z'
+      description: NYT - CDC diabetes headline
+      program: "??"
+      source: https://www.nytimes.com/2022/01/07/health/kids-covid-diabetes-cdc.html
+      publication: New York Times
+      title: Covid may raise the risk of diabetes in children, C.D.C. researchers reported.
+    - type: Journal
+      type-general: articles
+      est_time: '1899-12-30T01:11:51.000Z'
+      description: CDC Actual Study on diabetes
+      program: "??"
+      source: https://www.cdc.gov/mmwr/volumes/71/wr/mm7102e2.htm?s_cid=mm7102e2_w
+      publication: CDC
+      title: Risk for Newly Diagnosed Diabetes >30 Days After SARS-CoV-2 Infection Among Persons Aged <18 Years
+    - type: Journal
+      type-general: articles
+      est_time: '1899-12-30T01:12:53.000Z'
+      description: NIH- Cancer DES stats
+      program:
+      source: https://www.cancer.gov/about-cancer/causes-prevention/risk/hormones/des-fact-sheet
+      publication: National Cancer Institute
+      title: Diethylstilbestrol (DES) Exposure and Cancer
+    - type: Journal
+      type-general: articles
+      est_time: '1899-12-30T01:13:56.000Z'
+      description: BMJ - SSRI suicide
+      program:
+      source: https://www.bmj.com/content/330/7488/396.short
+      publication: British Medical Journal
+      title: Association between suicide attempts and selective serotonin reuptake inhibitors
