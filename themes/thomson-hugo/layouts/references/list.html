@@ -143,11 +143,9 @@
   }
 
   // Add active class to the current button (highlight it)
-  //let btnContainer = document.getElementById("myBtnContainer");
-  let btnContainer = document.querySelector("#myBtnContainer");
-  console.log(btnContainer);
+  let btnContainer = document.getElementById("myBtnContainer");
+  // let btnContainer = document.querySelector("#myBtnContainer");
   let btns = btnContainer.getElementsByClassName("btn");
-  console.log(btns)
   // var btns = document.querySelector(".btn2");
   for (var i = 0; i < btns.length; i++) {
     btns[i].addEventListener("click", function(){
