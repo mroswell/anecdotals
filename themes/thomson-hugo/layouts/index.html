@@ -24,7 +24,7 @@
                 Rumble("play", {"video":"vwmsdv","div":"rumble_vwmsdv"});</script>
                 <ul class="list-inline mb-0">
                 {{range .Site.Params.social }}
-                <li class="list-inline-item"><a href="{{ .link | safeURL }}" target="_blank"><i style="vertical-align:bottom;" class="{{ .icon }} mr-3"></i></a>
+                <li class="list-inline-item"><a aria-label="{{ .arialabel}}" href="{{ .link | safeURL }}" target="_blank"><i style="vertical-align:bottom;" class="{{ .icon }} mr-3"></i></a>
                 </li>
                 {{ end }}
                 </ul>
