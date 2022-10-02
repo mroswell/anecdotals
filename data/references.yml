@@ -7,7 +7,7 @@ references:
       source: https://www.nejm.org/doi/10.1056/NEJMoa2107456
       publication: New England Journal of Medicine
       title: Safety, Immunogenicity, and Efficacy of the BNT162b2 Covid-19 Vaccine in Adolescents
-    - type: Journal
+    - type: Government Corporate
       type-general: articles
       est_time: '1899-12-30T07:41:00.000Z'
       notes:
@@ -98,7 +98,7 @@ references:
       source: https://www.youtube.com/watch?v=zNOgDAzm03I
       publication: Lindell TV or Daily Clout
       title: Lindell TV, the absolute truth- emerald Dr Naomi Wolf Shares SHOCKING New Pfizer Discoveries
-    - type: Media
+    - type: Media Government Corporate
       type-general: articles
       est_time: '1899-12-30T14:14:00.000Z'
       notes:
@@ -331,12 +331,8 @@ references:
       est_time: '1899-12-30T01:11:39.000Z'
       notes:
       source: https://www.youtube.com/watch?v=2C6524soTnA
-      publication: |-
-        Vinay Prasad MD MPH
-        YouTube channel
-      title: |-
-        Vinay Prasad MD MPH
-        Bad CDC study
+      publication: Vinay Prasad MD MPH YouTube channel
+      title: How the CDC Abandoned Science | My Article in Tablet Magazine
     - type: Journal
       type-general: articles
       est_time: '1899-12-30T01:11:46.000Z'
@@ -357,8 +353,7 @@ references:
       notes: "??"
       source: https://www.cdc.gov/mmwr/volumes/71/wr/mm7102e2.htm?s_cid=mm7102e2_w
       publication: CDC
-      title: Risk for Newly Diagnosed Diabetes >30 Days After SARS-CoV-2 Infection Among
-        Persons Aged <18 Years
+      title: Risk for Newly Diagnosed Diabetes >30 Days After SARS-CoV-2 Infection Among Persons Aged <18 Years
     - type: Journal
       type-general: articles
       est_time: '1899-12-30T01:12:53.000Z'
