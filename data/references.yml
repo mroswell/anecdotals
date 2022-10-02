@@ -11,7 +11,7 @@ references:
       type-general: articles
       est_time: '1899-12-30T07:41:00.000Z'
       notes:
-      source: http://www.fda.gov/media/148542/download
+      source: https://www.fda.gov/media/148542/download
       publication: FDA CBER/OVRR
       title: Emergency Use Authorization (EUA) Amendment for an Unapproved Product Review Memorandum
     - type: Corporate
@@ -109,7 +109,7 @@ references:
       type-general: articles
       est_time: '1899-12-30T19:33:00.000Z'
       notes:
-      source: http://www.vaers.hhs.gov/about.html
+      source: https://vaers.hhs.gov/about.html
       publication: HHS
       title: About VAERS
     - type: Journal
@@ -287,7 +287,7 @@ references:
       source: https://www.medrxiv.org/content/10.1101/2022.05.16.22274439v1
       publication: medRxiv Preprint
       title: Neuropathic symptoms with SARS-CoV-2 vaccination
-    - type: Media
+    - type: Media Government Corporate
       type-general: articles
       est_time: '1899-12-30T01:10:26.000Z'
       notes:
