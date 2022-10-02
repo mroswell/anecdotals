@@ -49,7 +49,7 @@ references:
       source: https://www.nejm.org/doi/full/10.1056/NEJMoa2110345
       publication: New England Journal of Medicine
       title: Safety and Efficacy of the BNT162b2 mRNA Covid-19 Vaccine through 6 Months
-    - type: Journal
+    - type: Journal Media
       type-general: articles
       est_time: '1899-12-30T11:53:00.000Z'
       notes:
@@ -340,14 +340,14 @@ references:
       source: https://www.tabletmag.com/sections/science/articles/how-the-cdc-abandoned-science
       publication: Tablet
       title: How the CDC Abandoned Science
-    - type: Journal
+    - type: Journal Media Government
       type-general: articles
       est_time: '1899-12-30T01:11:51.000Z'
       notes: "??"
       source: https://www.nytimes.com/2022/01/07/health/kids-covid-diabetes-cdc.html
       publication: New York Times
       title: Covid may raise the risk of diabetes in children, C.D.C. researchers reported.
-    - type: Journal
+    - type: Journal Government
       type-general: articles
       est_time: '1899-12-30T01:11:51.000Z'
       notes: "??"
