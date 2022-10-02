@@ -6,9 +6,6 @@ type: home
 ---
  This is the Blurb about Anecdotals
 
- Don't Think Twice, It's Alright
- (Sung during COVID quarantine)
-{{< youtube -OLv7yXdCEA >}}
 
 
 
