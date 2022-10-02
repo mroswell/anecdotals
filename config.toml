@@ -79,10 +79,10 @@ name = "Donate"
 url = "donate"
 weight = 15
 
-# [[menu.main]]
-# name = "Bonus"
-# url = "bonus"
-# weight = 8
+[[menu.main]]
+name = "References"
+url = "references"
+weight = 8
 
 # default parameters
 [params]
