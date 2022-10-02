@@ -8,7 +8,7 @@ references:
       source: https://www.youtube.com/watch?v=gicInQofP-E
       publication: FDA
       title: FDA Stakeholder Call - Janet Woodcock
-    - type: Video
+    - type: Video Government
       type-general: videos
       est_time: '1899-12-30T00:11:20.000Z'
       description: NIH - Vaccine Questions and Answers with Dr. Francis Collins
@@ -16,7 +16,7 @@ references:
       source: https://www.youtube.com/watch?v=CePmI_2EUgU
       publication: NIH
       title: NIH - Vaccine Questions and Answers with Dr. Francis Collins
-    - type: Video
+    - type: Video Research
       type-general: videos
       est_time: '1899-12-30T00:11:59.000Z'
       description: The - BMJ - Brook Jackson Whistle Blower
@@ -24,7 +24,7 @@ references:
       source: https://www.youtube.com/watch?v=RaLxhFiOBYk
       publication: The BMJ
       title: The - BMJ - Brook Jackson Whistle Blower
-    - type: Video
+    - type: Video Government
       type-general: videos
       est_time: '1899-12-30T00:13:04.000Z'
       description: FDA Stakeholder Call - Peter Marks COVID-19 Vaccine for Adolescents
@@ -72,7 +72,7 @@ references:
       title: |-
         Russell Brand YouTube,
         Doctors are bieng censored
-    - type: Video
+    - type: Video Media
       type-general: videos
       est_time: '1899-12-30T00:37:33.000Z'
       description: |-
@@ -84,7 +84,7 @@ references:
       title: |-
         MSNBC - Rachel Maddow,
         Pediatrician, "Vax your kids"
-    - type: Video
+    - type: Video Media
       type-general: videos
       est_time: '1899-12-30T00:37:42.000Z'
       description: |-
