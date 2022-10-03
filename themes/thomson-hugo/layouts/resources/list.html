@@ -1,25 +1,27 @@
+
+
 {{ define "main" }}
-  {{/*{{ partial "page-header.html" . }}*/}}
-{{ "<!-- resources -->" | safeHTML }}
-<div style="z-index:-1; background-image:url('https://marjorieroswell.com/images/banner-shape.png')"> </div>
+
+
+
+<!-- resource -->
 <section class="section">
   <div class="container">
     <div class="row">
-      {{ $content := .Content }}
-      {{ $content = replaceRE `<a href="(https://yiddishwordoftheweek.tumblr.com/post/315848528/naches-%D7%A0%D7%97%D7%AA)">` `<a href="$1" target="_blank">` $content | safeHTML }}
-      {{ $content = replaceRE `<a href="(https://www.merriam-webster.com/dictionary/tuchus)">` `<a href="$1" target="_blank">` $content | safeHTML }}
-      {{ $content = replaceRE `<a href="(https://www.lexico.com/en/definition/shul)">` `<a href="$1" target="_blank">` $content | safeHTML }}
-      {{ $content = replaceRE `<a href="(https?://.+)">` `<a href="$1" target="_blank">` $content | safeHTML }}
-
-      {{ $content | safeHTML }}
+      <div class="col-10 mx-auto text-center">
+        <h2>Resources</h2>
+        </div>
+      <div class="col-10 mx-auto">
+        <ul class="list-unstyled">
+          <!-- notice item -->
+          {{ range .Data.Pages }}
+          {{ .Render "resource" }}
+          {{ end }}
+        </ul>
+      </div>
     </div>
   </div>
 </section>
-{{ "<!-- /test -->" | safeHTML }}
-
-
-<!-- call to action -->
-
-<!-- /call to action -->
+<!-- /notice -->
 
 {{ end }}

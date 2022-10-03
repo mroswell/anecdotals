@@ -4,13 +4,7 @@ author:
   image : "images/trees1_cropped2.jpg"
   name : "Anecdotals Movie"
   bio : "Freelance Developer. Nutrition Educator. Climate Activist. Musician."
-#  content : "Lorum Ipsum"
-#  # signature : "images/signature.png"
-#  favourite_topic:
-#    - "Interactive Data Visualizations"
-#    - "Nature-Based Systems"
-#    - "Light Verse"
-#    - "Beauty"
+
 
 #################### Education #######################
 education:
