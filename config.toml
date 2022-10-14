@@ -118,7 +118,7 @@ map_marker = "images/marker.png"
 # social site
 [[params.social]]
 icon = "ti-facebook"
-link = "https://www.facebook.com/sharer.php?u=http%3A%2F%2Fanectodalsmovie.com&t=thisissharetext"
+link = "https://www.facebook.com/sharer.php?u=http%3A%2F%2Fanecdotalsmovie.com&t=thisissharetext"
 arialabel = "Post to Facebook"
 
 [[params.social]]
