@@ -66,10 +66,24 @@ references:
     - type: Video
       type-general: videos
       est_time: '2022-11-15T00:11:59.000Z'
-      notes: "??"
+      notes:
       source: https://www.youtube.com/watch?v=RaLxhFiOBYk
       publication: The BMJ
       title: The - BMJ - Brook Jackson Whistle Blower
+    - type: Journal Video
+      type-general: videos
+      est_time: '2022-11-15T00:11:59.000Z'
+      notes:
+      source: https://rumble.com/vwd5w9-covid-19-researcher-blows-the-whistle-on-data-integrity-issues-in-pfizers-v.html
+      publication: Stew Peters Network
+      title: Covid-19 Researcher Blows The Whistle On Data Integrity Issues In Pfizer's Vaccine Trial
+    - type: Video
+      type-general: videos
+      est_time: '2022-11-15T00:11:59.000Z'
+      notes:
+      source: https://www.youtube.com/watch?v=PnaJ9a8tn-w&t=444s
+      publication: Sideline Sanity with Michele Tafoya
+      title: She Oversaw Vaccine Trials… Until She Blew the Whistle
     - type: Journal
       type-general: articles
       est_time: '2022-11-15T12:00:00.000Z'
@@ -133,7 +147,7 @@ references:
       source: https://wonder.cdc.gov/controller/datarequest/D8
       publication: CDC
       title: CDC WONDER - adverse reaction search
-    - type: Journal
+    - type: Government
       type-general: articles
       est_time: '1899-12-31T01:12:00.000Z'
       notes:
