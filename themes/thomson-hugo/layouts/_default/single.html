@@ -17,12 +17,6 @@
     <div class="row">
       <div class="col-lg-8">
         <article class="single-post">
-
-          <div class="col-lg-2 col-md-2"><a class="image-content" href="{{ .Permalink }}">
-            <img src="{{ .Params.Image | absURL }}" alt="{{ .Title }}" class="img-thumbnail">
-          </a>
-          </div>
-
           <div class="single-post-content mt-4">
             {{ with .Params.exclude }}
             {{ else }}
