@@ -1,14 +1,11 @@
 {{ define "main"}}
-
-
 <!-- screenings form start -->
 <section class="contact section-sm d-flex flex-row justify-content-center">
   <div style="box-sizing: border-box;border:2px solid #492BBD; background: #EAE9F6; margin: 6px; padding: 20px" class="offset-1 offset-lg-2 justify-content-center container">
     <div class="row justify-content-center">
       <div class="col-lg-12">
         <div class="text-center mb-1 contact-title">
-          <h2>Host a Screening</h2>
-          Screenings are a wonderful way to build a sense of community. <br />This is a worksheet
+          <h2>Host a Screening</h2> Screenings are a wonderful way to build a sense of community. <br />This is a worksheet to help you along the way.
         </div>
         <div class="container worksheet py-5">
           <div class="row">
@@ -34,7 +31,7 @@
                   <div class="col-sm-6">
                     <input type="text" class="form-control" id="venue" name="venue" aria-label="Venue" placeholder="Venue and Address">
                     <br />
-                    <input type="text" class="form-control" id="date" name="date" aria-label="Date"placeholder="Date">
+                    <input type="text" class="form-control" id="date" name="date" aria-label="Date" placeholder="Date">
                   </div>
                 </div>
                 <div class="form-group row">
@@ -65,9 +62,11 @@
                 </div>
                 <div class="form-group row">
                   <div class="col-sm-6">
-                    <strong>5. Send out invitations.</strong><br />
-<!--                    <button type="button" id="copy" class="btn btn-main btn-sm px-4 float-right">-->
-                      <button type="button" class="btn btn-main btn-sm" data-toggle="modal" data-target=".bd-example-modal-lg">Sample Invitation text &nbsp;<i class="ti-angle-double-right mr-2"></i></button>
+                    <strong>5. Send out invitations.</strong>
+                    <br />
+                    <!--                    <button type="button" id="copy" class="btn btn-main btn-sm px-4 float-right">-->
+                    <button type="button" class="btn btn-main btn-sm" data-toggle="modal" data-target=".bd-example-modal-lg">Sample Invitation text &nbsp; <i class="ti-angle-double-right mr-2"></i>
+                    </button>
                     <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
                       <div class="modal-dialog modal-lg">
                         <div class="modal-content">
@@ -78,12 +77,11 @@
                             </button>
                           </div>
                           <div class="modal-body">
-                            <div id="copy-text">
-                          [I’m | Named Organization is] happy to invite you to a screening of Anecdotals on [Date] at [Location name and address]. The movie is a compassionate exploration of the nuanced vaccine debate. [Mention your connection to the film]. [if panel discussion: The film will be followed by a panel discussion including…] [if organic food is served: Light organic fare will be served] [<em>Details about parking</em>]</div>
+                            <div id="copy-text"> [I’m | Named Organization is] happy to invite you to a screening of Anecdotals on [Date] at [Location name and address]. The movie is a compassionate exploration of the nuanced vaccine debate. [Mention your connection to the film]. [if panel discussion: The film will be followed by a panel discussion including…] [if organic food is served: Light organic fare will be served] [ <em>Details about parking</em>] </div>
                             <p>
-                              <button type="button" id="copy" class="btn btn-main px-4 float-right">Copy Text &nbsp;<i class="ti-angle-double-right mr-2"></i>
-                                </button>
-                            </button>
+                              <button type="button" id="copy" class="btn btn-main px-4 float-right">Copy Text &nbsp; <i class="ti-angle-double-right mr-2"></i>
+                              </button>
+                              </button>
                             </p>
                           </div>
                         </div>
@@ -91,7 +89,6 @@
                     </div>
                   </div>
                   <div class="col-sm-6">
-<!--                    <label for="inputWebsite">Website</label>-->
                     <div class="input-group mb-3">
                       <div class="input-group-prepend">
                         <span class="input-group-text" id="percent_sent_span">Approximate % Sent</span>
@@ -102,7 +99,7 @@
                       <div class="input-group-prepend">
                         <span class="input-group-text" id="basic-addon1">RSVP Count&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
                       </div>
-                      <input type="text" class="form-control"  id="rsvp_count" name="rsvp_count" placeholder="RSVP Count" aria-label="RSVP Count" aria-describedby="basic-addon1">
+                      <input type="text" class="form-control" id="rsvp_count" name="rsvp_count" placeholder="RSVP Count" aria-label="RSVP Count" aria-describedby="basic-addon1">
                     </div>
                   </div>
                 </div>
@@ -111,10 +108,7 @@
                     <strong>6. Consider a panel discussion</strong> with vaccine-injured participants, advocates, and medical professionals
                   </div>
                   <div class="col-sm-6">
-<!--                    <label for="inputWebsite">Website</label>-->
                     <textarea name="panel" id="panel" aria-label="Panel Invitees" cols="50" rows="4" placeholder="Committed Panel Invitees"></textarea>
-
-<!--                    <input type="text" class="form-control" id="inputWebsite" >-->
                   </div>
                 </div>
                 <div class="form-group row">
@@ -122,9 +116,7 @@
                     <strong>7. Enjoy</strong> your role as host! Thank your participants! Share the website URL (http://AnecdotalsMovie.com). Ask if anyone else wants to conduct a screening.
                   </div>
                 </div>
-
                 <button type="button" class="btn btn-main px-4 float-right">Save</button>
-
               </form>
             </div>
           </div>
@@ -134,27 +126,32 @@
   </div>
 </section>
 <section class="contact section-sm d-flex flex-row justify-content-center">
-<div style="box-sizing: border-box;border:2px solid #492BBD; background: #EAE9F6; margin: 6px; padding: 20px" class="offset-1 offset-lg-2 justify-content-center container">
-  <div class="container worksheet py-5">
-    <div class="row">
-      <div class="col-md-10 mx-auto">
-        <form>
-  <div class="form-group row">
-    <div class="col-sm-6">
-      <strong>8. Share</strong> on social media using<br/>#AnecdotalsMovie<br />hashtag
-    </div>
-    <div class="col-sm-6">
-<!--      <label for="inputWebsite">Website</label>-->
-      <input type="text" class="form-control" id="inputWebsite" placeholder="Committed Invitees">
-    </div>
-  </div>
-        </form>
+  <div style="box-sizing: border-box;border:2px solid #492BBD; background: #EAE9F6; margin: 6px; padding: 20px" class="offset-1 offset-lg-2 justify-content-center container">
+    <div class="row justify-content-center">
+      <div class="col-lg-12">
+        <div class="text-center mb-1 contact-title">
+          <h2>Host a Screening</h2> Screenings are a wonderful way to build a sense of community. <br />This is a worksheet to help you along the way.
+        </div>
+        <div class="container worksheet py-5">
+          <div class="row">
+            <div class="col-md-10 mx-auto">
+              <form>
+                <div class="form-group row">
+                  <div class="col-sm-6">
+                    <strong>8. Share</strong> on social media using <br />#AnecdotalsMovie <br />hashtag
+                  </div>
+                  <div class="col-sm-6">
+                    <input type="text" class="form-control" id="inputWebsite" aria-label="invitees" placeholder="Committed Invitees">
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
-</div>
 </section>
-
 <section>
   <div style="box-sizing: border-box;border:2px solid #492BBD; background: #EAE9F6; margin: 6px; padding: 20px" class="offset-1 offset-lg-2 justify-content-center container">
     <div class="row justify-content-center">
@@ -202,14 +199,10 @@
   </div>
 </section>
 <script>
-  document.addEventListener('DOMContentLoaded',function(){
+  document.addEventListener('DOMContentLoaded', function() {
     let copyButton = document.getElementById('copy');
-    copyButton.addEventListener('click', function () {
-      navigator.clipboard
-              .writeText(document.getElementById('copy-text').innerText)
-              .then(
-                      success => console.log("text copied"), err => console.log("error copying text")
-              );
+    copyButton.addEventListener('click', function() {
+      navigator.clipboard.writeText(document.getElementById('copy-text').innerText).then(success => console.log("text copied"), err => console.log("error copying text"));
     });
   });
 </script>
