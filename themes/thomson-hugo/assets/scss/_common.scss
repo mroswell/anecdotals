@@ -239,3 +239,18 @@ a{
 		visibility: visible;
 	}
 }
+.worksheet {
+	line-height: 1.5em;
+}
+
+.worksheet {
+	.form-group {
+	margin-bottom: 25px
+	}
+	textarea {
+		border: none;
+		background-color: white;
+		resize: none;
+		outline: none;
+	}
+}
