@@ -11,7 +11,7 @@
         <div class="container worksheet py-5">
           <div class="row">
             <div class="col-md-10 mx-auto">
-              <form id="screening-worksheet" class="js-form">
+              <form id="screening-worksheet" class="js-form"  method="post" action="{{ .Site.Params.contact_form_action }}">
                 <div class="form-group row">
                   <div class="col-sm-6">
                     <strong>1. Decide to do a screening.</strong> In these times many of us may feel somewhat disconnected. Perhaps we worry that our social network isn't big enough for a screening. But if you feel drawn to this movie, it's worth the effort to share it with others. Consider being a little bit brave.
@@ -116,8 +116,26 @@
                     <strong>7. Enjoy</strong> your role as host!  Share the website URL (https://AnecdotalsMovie.com) after the movie. Ask if anyone else wants to conduct a screening. Thank your participants!
                   </div>
                 </div>
+                <div class="form-group row">
+                  <div class="col-sm-12">
                 <button type="button" class="btn btn-main px-4 float-right js-button">Save Progress&nbsp;<i class="ti-heart ml-2"></i></button>   &nbsp;              <button type="button" class="btn btn-dark mx-2 px-4 float-right clear-worksheet">Clear Form&nbsp;<i class="ti-trash ml-2"></i></button> &nbsp;
-
+                  </div></div>
+                <div class="form-group row">
+                  <div class="col-sm-12 py-5 justify-content-center">
+                    <hr style="border:none;border-top:3px dashed #492bbd;color:#fff;height:2px;width:100%;">
+                  </div>
+                </div>
+                <div class="form-group row">
+                  <div class="col-sm-6">
+                    (Optionally) <strong>8.Share</strong> share this screening with the Anecdotals film team
+                  </div>
+                  <div class="col-sm-6">
+                    <input type="text" class="form-control" name="email" id="email" aria-label="Email" placeholder="Email">
+                    <input style="margin-top: 9px;" type="text" class="form-control" id="phone" name="phone" aria-label="Phone Number" placeholder="Phone Number">
+                    <textarea style="margin-top: 9px;" name="message" class="form-control" rows="5" placeholder="Comments, or anything else you want to share?"></textarea>
+                    <p>&nbsp;</p><p><button class="btn btn-main float-right" name="submit" type="submit">Share with Anecdotals Team <i class="ti-share ml-2"></i></button></p>
+                  </div>
+                </div>
               </form>
             </div>
           </div>
@@ -139,7 +157,7 @@
               <form>
                 <div class="form-group row">
                   <div class="col-sm-6">
-                    <strong>8. Share</strong> on social media using <br />#AnecdotalsMovie <br />hashtag
+                    <strong>9. Share</strong> on social media using <br />#AnecdotalsMovie <br />hashtag
                   </div>
                   <div class="col-sm-6">
                     <input type="text" class="form-control" id="social1" aria-label="Tweet or Post URL" placeholder="Tweet or Post URL">
@@ -205,7 +223,7 @@
   document.addEventListener('DOMContentLoaded', function() {
     let copyButton = document.getElementById('copy');
     copyButton.addEventListener('click', function() {
-      navigator.clipboard.writeText(document.getElementById('copy-text').innerText).then(success => console.log("text copied"), err => console.log("error copying text"));
+      navigator.clipboard.writeText(document.getElementById('copy-text').innerText);
     });
   });
 
@@ -1057,7 +1075,7 @@
 
     },{"element-matches-polyfill":2,"form-serialize":3,"query-string-es5":4}]},{},[5])(5)
   });
-
+  // save screening worksheet progress
   var formStorage = new FormStorage('.js-form');
   formStorage.apply();
   var button = document.querySelector('.js-button');
@@ -1065,12 +1083,10 @@
     formStorage.save();
   });
 
-
+  //clear screening worksheet
   var buttoncw = document.querySelector('.clear-worksheet');
   buttoncw.addEventListener('click', function(){
-    console.log(document.getElementById("screening-worksheet"));
     document.getElementById("screening-worksheet").reset();
-
   });
 </script>
 {{ end }}
