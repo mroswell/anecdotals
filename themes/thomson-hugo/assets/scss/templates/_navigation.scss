@@ -10,13 +10,16 @@
 }
 
 .navbar-nav .nav-link {
-	padding: 20px 15px!important;
+	padding: 5px 15px!important;
 	text-transform: uppercase;
 	font-size: 14px;
 	letter-spacing: 1px;
     font-weight: 700;
 }
 
+.navbar-nav .nav-item:not(:last-child) .nav-link {
+    border-right: 2px dotted #c7c5e7;
+}
 ul.dropdown-menu {
     background: rgba(21,21,21,1);
     border-radius: 0px;
