@@ -20,6 +20,7 @@
 .navbar-nav .nav-item:not(:last-child) .nav-link {
     border-right: 2px dotted #c7c5e7;
 }
+
 ul.dropdown-menu {
     background: rgba(21,21,21,1);
     border-radius: 0px;
@@ -102,7 +103,9 @@ ul.dropdown-menu > li > a, .navbar ul ul ul.dropdown-menu li .nav-link {
     .navbar-nav .dropdown-menu {
         position: absolute;
     }
-
+    .container.d-flex.justify-content-center.justify-content-md-between {
+        justify-content: space-between !important;
+    }
     .banner .cd-headline {
         font-size: 32px;
         line-height: 42px;
@@ -114,11 +117,23 @@ ul.dropdown-menu > li > a, .navbar ul ul ul.dropdown-menu li .nav-link {
     .btn-group > .btn {
         padding: 20px;
     }
+    .navbar-nav .nav-item:not(:last-child) .nav-link {
+        border-right: none;
+    }
+    .social-links.d-none.d-md-flex.align-items-center {
+        display: block !important;
+    }
 }
 
 
 
 @include mobile-xs{
+    .navbar-nav .nav-item:not(:last-child) .nav-link {
+        border-right: none;
+    }
+    .container.d-flex.justify-content-center.justify-content-md-between {
+        justify-content: space-between !important;
+    }
     .navbar-nav .dropdown-menu {
         position: absolute;
     }
@@ -132,9 +147,21 @@ ul.dropdown-menu > li > a, .navbar ul ul ul.dropdown-menu li .nav-link {
     .btn-group > .btn {
         padding: 20px;
     }
+    .social-links.d-none.d-md-flex.align-items-center {
+        display: block !important;
+    }
 }
 
 @include tablet{
+    .container.d-flex.justify-content-center.justify-content-md-between {
+        justify-content: space-between !important;
+    }
+    .navbar-nav .nav-item:not(:last-child) .nav-link {
+        border-right: none;
+    }
+    .social-links.d-none.d-md-flex.align-items-center {
+        display: block !important;
+    }
     .navbar-nav .dropdown-menu {
         position: absolute;
     }
@@ -150,6 +177,9 @@ ul.dropdown-menu > li > a, .navbar ul ul ul.dropdown-menu li .nav-link {
     }
 }
 @include desktop{
+    .navbar-nav .nav-item:not(:last-child) .nav-link {
+        border-right: none;
+    }
     .navbar-nav .dropdown-menu {
         position: absolute;
     }
