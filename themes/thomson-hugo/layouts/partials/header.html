@@ -1,12 +1,12 @@
 <nav class="navbar navbar-expand-lg  main-nav " id="navbar">
   <div class="container">
 	  <a style="font-weight: 700;" class="navbar-brand" href="{{ .Site.BaseURL }}">Anecdotals</a>
-    <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarsExample09"
-      aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#toggler"
+      aria-controls="toggler" aria-expanded="false" aria-label="Toggle navigation">
       <span class="ti-align-justify"></span>
     </button>
 
-    <div class="collapse navbar-collapse" id="navbarsExample09">
+    <div class="collapse navbar-collapse" id="toggler">
       <ul class="navbar-nav ml-auto">
         {{ range .Site.Menus.main }}
         {{ if .HasChildren }}
