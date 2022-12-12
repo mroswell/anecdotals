@@ -1,6 +1,6 @@
 ---
 title: "Terms and Conditions"
-date: 2021-06-25T20:00:00-04:00
+date: 2022-06-25T20:00:00-04:00
 image: "images/terms.png"
 exclude: true
 draft: false

@@ -32,7 +32,7 @@ $(window).on('load', function () {
 //   }
 //
 //   // magnific popup
-//   $('.project-gallery').each(function () {
+//   $('.trailer-gallery').each(function () {
 //     $(this).find('.popup-gallery').magnificPopup({
 //       type: 'image',
 //       gallery: {

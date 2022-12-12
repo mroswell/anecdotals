@@ -58,16 +58,30 @@ link="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/js/fontawesome.m
 
 # menu
 [[menu.main]]
-name = "Home"
+name = "Home (Full Movie)"
 url = "/"
 weight = 1
-
-
 
 [[menu.main]]
 name = "Resources"
 url = "resources"
 weight = 15
+[[menu.main]]
+name = "Trailer"
+url = "trailer"
+weight = 3
+
+# [[menu.main]]
+# name = "resources"
+# url = "resources"
+# weight = 15
+# parent = "Resources"
+#
+# [[menu.main]]
+# name = "Trailer"
+# url = "trailer"
+# weight = 15
+# parent = "Resources"
 
 [[menu.main]]
 name = "Host a Screening"
@@ -75,9 +89,14 @@ url = "host-screening"
 weight = 5
 
 # [[menu.main]]
-# name = "test"
-# url = "screenings"
-# parent = "host-screening"
+# name = "Bonus Clips"
+# url = "bonus-clips"
+# weight = 6
+#
+# [[menu.main]]
+# name = "News"
+# url = "news"
+# weight = 7
 
 [[menu.main]]
 name = "Donate"

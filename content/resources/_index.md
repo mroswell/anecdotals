@@ -1,6 +1,6 @@
 ---
 title: "Resources"
-date: 2021-06-24T12:14:34+06:00
+date: 2022-11-24T12:14:34+06:00
 description: "Resources"
 ---
 ## &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Resources for Viewers&nbsp;&nbsp;&nbsp;&nbsp; {#id .className style="margin:auto " class="mb-5"}

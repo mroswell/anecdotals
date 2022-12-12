@@ -1,6 +1,6 @@
 ---
 title: "Privacy Policy"
-date: 2021-06-25T20:00:00-04:00
+date: 2022-11-25T20:00:00-04:00
 exclude: true
 draft: false
 ---

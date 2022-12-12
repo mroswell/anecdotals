@@ -1,0 +1,58 @@
+{{ define "main" }}
+
+<section class="section banner ">
+  <div class="container pt-5 pb-3">
+    <div class="row">
+      <div class="col-10 mx-auto text-center">
+        <h2>Anecdotals Trailer</h2>
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-lg-8 text-center">
+
+                      <script>!function(r,u,m,b,l,e){r._Rumble=b,r[b]||(r[b]=function(){(r[b]._=r[b]._||[]).push(arguments);if(r[b]._.length==1){l=u.createElement(m),e=u.getElementsByTagName(m)[0],l.async=1,l.src="https://rumble.com/embedJS/u17ewet"+(arguments[1].video?'.'+arguments[1].video:'')+"/?url="+encodeURIComponent(location.href)+"&args="+encodeURIComponent(JSON.stringify([].slice.apply(arguments))),e.parentNode.insertBefore(l,e)}})}(window, document, "script", "Rumble");</script>
+
+                        <div id="rumble_vwmsdv"></div>
+
+                        <script>
+                        Rumble("play", {"video":"vwmsdv","div":"rumble_vwmsdv"});</script>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="section banner pb-lg-3">
+  <div class="container pb-5">
+    <div class="row justify-content-center">
+      <form action="">
+        <h3>Some Stuff You Can Do</h3>
+
+        <div class="form-check form-switch">
+        <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
+        <label class="form-check-label" for="flexSwitchCheckDefault">Watch this trailer</label>
+        </div>
+        <div class="form-check form-switch">
+        <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
+        <label class="form-check-label" for="flexSwitchCheckDefault">Share this website with others<br></label>
+          <ul class="list-inline mb-0">
+            {{range .Site.Params.social }}
+            <li class="list-inline-item"><a aria-label="{{ .arialabel}}" href="{{ .link | safeURL }}" target="_blank"><i style="vertical-align:bottom;" class="{{ .icon }} mr-3"></i></a>
+            </li>
+            {{ end }}
+          </ul>
+        </div>
+        <div class="form-check form-switch">
+        <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
+          <label class="form-check-label" for="flexSwitchCheckDefault"><a href="/"><u>Watch</u></a> the 82-minute movie</label>
+        </div>
+        <div class="form-check form-switch">
+        <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
+        <label class="form-check-label" for="flexSwitchCheckDefault"><a href="/host-screening"><u>Host</u></a> a Screening</label>
+        </div>
+        <div class="form-check form-switch">
+        <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
+        <label class="form-check-label" for="flexSwitchCheckDefault"><a href="/donate"><u>Support</u></a> the film</label>
+        </div><p>&nbsp;</p>
+      </form>
+    </div>
+  </div>
+{{ end }}

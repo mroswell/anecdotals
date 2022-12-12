@@ -1,6 +1,6 @@
 ---
 title: "Anecdotals"
-date: 2021-06-10T12:14:34+06:00
+date: 2022-12-10T12:14:34+06:00
 description: "Anecdotals"
 type: home
 ---
