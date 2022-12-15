@@ -1,3 +1,10 @@
+# [blackfriday]
+#   hrefTargetBlank = true
+
+
+# [markup.goldmark]
+# 	[markup.goldmark.renderer]
+# 		unsafe = true
 # default configuration
 
 baseURL = "https://anecdotalsmovie.com"
@@ -93,10 +100,10 @@ weight = 5
 # url = "bonus-clips"
 # weight = 6
 #
-# [[menu.main]]
-# name = "News"
-# url = "news"
-# weight = 7
+[[menu.main]]
+name = "News"
+url = "news"
+weight = 7
 
 [[menu.main]]
 name = "Donate"
