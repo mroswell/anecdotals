@@ -1,18 +1,18 @@
-<link rel="stylesheet" href="../../assets/scss/templates/_navigation.scss">
+<!--<link rel="stylesheet" href="../../assets/scss/templates/_navigation.scss">-->
+<!-- <link href="{{ .Site.BaseURL }}../../assets/scss/templates/_navigation.scss" rel="stylesheet">-->
 <section id="topbar" class="topbar d-flex align-items-center">
   <div class="container d-flex justify-content-center justify-content-md-between"  style="margin-top:5px">
     <div class="d-flex align-items-center">
+      <a style="font-weight: 700;" class="navbar-brand" href="{{ .Site.BaseURL }}">Anecdotals</a>
     </div>
     <div class="social-links d-none d-md-flex align-items-center">
       <a aria-label="Anecdotals Twitter" href="https://twitter.com/AnecdotalsMovie" target="_blank"><i style="vertical-align:bottom;" class="ti-twitter-alt mr-3"></i></a>
       <a aria-label="Instagram" href="https://instagram.com/AnecdotalsMovie" target="_blank"><i style="vertical-align:bottom;" class="ti-instagram mr-3"></i></a>
-
     </div>
   </div>
 </section><!-- End Top Bar -->
 <nav style="line-height:1em;" class="navbar navbar-expand-lg  main-nav " id="navbar">
-  <div class="container">
-	  <a style="font-weight: 700;" class="navbar-brand" href="{{ .Site.BaseURL }}">Anecdotals</a>
+  <div class="container desk">
     <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#toggler1"
       aria-controls="toggler1" aria-expanded="false" aria-label="Toggle navigation">
       <span class="ti-align-justify"></span>
