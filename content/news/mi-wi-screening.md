@@ -7,6 +7,4 @@ type : "post"
 ---
 Anecdotals was screened by the Vaccine Safety Council of Minnesota in early December—Saturday in St. Michael, Minnesota, and Sunday in River Falls, Wisconsin. We had an incredibly engaged audience. A wonderful experience.
 
-{{< photo "/images/news/vscmn-screening.png" >}}
- &nbsp;
-{{< photo "/images/news/vscmn-screening1.png" >}}
+{{< rumble-clip-mn >}}
