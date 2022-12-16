@@ -2,7 +2,7 @@
 title: "Robert Bell Podcast with Jennifer Sharp"
 date: 2022-12-14T12:15:40+06:00
 description: "Robert Bell Podcast with Jennifer Sharp"
-tags: ["Podcast", "Robert Bell"]
+tags: ["Podcast"]
 type : "post"
 ---
 The Robert Scott Bell Show Featured Anecdotals Filmmaker Jennifer Sharp. Her segment starts at 15:42.   
