@@ -101,8 +101,8 @@ weight = 5
 # weight = 6
 #
 [[menu.main]]
-name = "News"
-url = "news"
+name = "Press"
+url = "press"
 weight = 7
 
 [[menu.main]]
