@@ -1,11 +1,3 @@
-# [blackfriday]
-#   hrefTargetBlank = true
-
-
-# [markup.goldmark]
-# 	[markup.goldmark.renderer]
-# 		unsafe = true
-# default configuration
 
 baseURL = "https://anecdotalsmovie.com"
 languageCode = "en-us"
@@ -127,7 +119,7 @@ address = ""
 author = ""
 description = "Anecdotals Movie: A compassionate exploration of the nuanced vaccine debate"
 # google analytics
-google_analytics_id = "199716792-1"#/*"G-12N3B6CB0D"*/
+# google_analytics_id = "199716792-1"#/*"G-12N3B6CB0D"*/
 # contact form action
 contact_form_action = "https://formspree.io/f/xleveggq" # contact form works with : https://formspree.io
 # copyright
@@ -141,7 +133,7 @@ preloader = "" # use png, jpg, svg or gif format
 # google map
 [params.gmap]
 enable = false
-gmap_api = "https://maps.googleapis.com/maps/api/js?key=AIzaSyBu5nZKbeK-WHQ70oqOWo-_4VmwOwKP9YQ"
+gmap_api = "https://maps.googleapis.com/maps/api/js?key="
 map_latitude = ""
 map_longitude = ""
 map_marker = "images/marker.png"
@@ -177,3 +169,7 @@ arialabel = "Post to WhatsApp"
 #
 #disableKinds = ["taxonomy"]
 
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
