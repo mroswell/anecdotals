@@ -13,7 +13,7 @@ Podcast Links
 - Short Video Interview: https://youtu.be/1Pp_6_BBDig
 - Full audio podcast: https://podcasts.apple.com/us/podcast/season-10-episode-110-anecdotals-filmmaker-jennifer/id1376058503?i=1000590619172
 
-[{{< photo "/images/news/12-18-22-letsargue-smaller.jpg" >}}](https://podcasts.apple.com/us/podcast/season-10-episode-110-anecdotals-filmmaker-jennifer/id1376058503?i=1000590619172)
+{{< photo-button "/images/news/12-18-22-letsargue-smaller.jpg" "https://podcasts.apple.com/us/podcast/season-10-episode-110-anecdotals-filmmaker-jennifer/id1376058503?i=1000590619172" >}}
 
 Socials for Let's Argue w/ Prince Carlton: <br />
 <i class="ti-instagram"></i> <a class="PressLink" href="https://www.instagram.com/themorningshowletsargue/" target="_blank">@themorningshowletsargue</a> |
