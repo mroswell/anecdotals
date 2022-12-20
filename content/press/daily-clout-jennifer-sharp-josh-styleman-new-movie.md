@@ -7,6 +7,4 @@ type : "post"
 ---
 Film Director Jennifer Sharp and Executive Producer Josh Stylman Announce Brand New Documentary ‘Anecdotals’, a film following adverse events experienced by individuals post-mRNA vaccination.
 
-
-[{{< photo "/images/news/12_14_22_dailyclout.png" >}}](https://dailyclout.io/director-jennifer-sharp-and-producer-josh-stylman-announce-brand-new-adverse-events-documentary-anecdotals/)
-
+{{< photo-button "/images/news/12_14_22_dailyclout.png" "https://dailyclout.io/director-jennifer-sharp-and-producer-josh-stylman-announce-brand-new-adverse-events-documentary-anecdotals/" >}}
