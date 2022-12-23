@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+    hugo:
+        image: klakegg/hugo:ext-alpine
+        command: server -b http://localhost:1313
+        working_dir: /app
+        volumes:
+            - .:/app:rw,cached
+        ports:
+            - "1313:1313"

@@ -9,6 +9,10 @@
 	}
 }
 
+.navbar > .container {
+    justify-content: flex-end!important;
+}
+
 .navbar-nav .nav-link {
 	padding: 5px 15px!important;
 	text-transform: uppercase;
@@ -190,6 +194,17 @@ ul.dropdown-menu > li > a, .navbar ul ul ul.dropdown-menu li .nav-link {
     }
 }
 @include desktop {
+    #topbar {
+        padding: 0.5rem 1rem;
+
+        & > .container {
+            padding-left: 0;
+            padding-right: 0;
+        }
+    }
+    .navbar-nav {
+        text-align: center;
+    }
     .navbar-nav .nav-item:not(:last-child) .nav-link {
         border-right: none;
     }
