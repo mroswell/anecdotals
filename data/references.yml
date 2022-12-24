@@ -1,5 +1,62 @@
 references:
   articles:
+    - type: Video Government
+      est_time: 00:01:16:08
+      source: https://www.youtube.com/watch?v=Ikgv2mAPtw8
+      publication: Trump White House Archived YouTube Channel
+      title: Press Secretary Kayleigh McEnany Holds a Press Briefing
+    - type: Video Government Media
+      est_time: '0:1:21'
+      source: https://www.youtube.com/watch?v=rMDasZtcfdQ
+      publication: Washington Post
+      title: Biden delivers remarks at Texas mass vaccination site - 2/26
+    - type: Video Government Media
+      est_time: '0:1:23'
+      source: https://www.youtube.com/watch?v=hUohhBRvAsA
+      publication: Telegraph
+      title: 'These are safe and effective products'': Dr Fauci addresses Covid vaccine
+      fears'
+    - type: Video Government
+      est_time: '0:1:25'
+      source: https://www.youtube.com/watch?v=qL--41obctA
+      publication: CA Public Health
+      title: "Vaccines are Safe, Effective, Free"
+    - type: Video Media
+      est_time: '0:2:45'
+      source: https://www.youtube.com/watch?v=ezLVrZlteoQ
+      publication: New York Post
+      title: 'Howard Stern rips anti-vax radio hosts who died: ‘F–k their freedom’'
+    - type: Video Media
+      est_time: '0:01:43'
+      source: https://www.youtube.com/watch?v=75sUi4-IbhQ
+      publication: Fox News
+      title: CNN's Don Lemon calling to 'shame' unvaccinated people
+    - type: Video Media
+      est_time: '0:3:41'
+      source: https://www.youtube.com/watch?v=MY2Ffj9oCKw
+      publication: MSNBC - The ReidOut
+      title: Joy Reid Calls Out GOP Leaders Re-Tooling Party Around Vaccine Refusal \n\"The
+        right to be stupid\""
+    - type: Video Media
+      est_time: '0:3:47'
+      source: https://www.youtube.com/watch?v=SI5Pk3uCJVI
+      publication: The View
+      title: "‘The View’ Talks Trust In COVID-19 Vaccine"
+    - type: Video Media
+      est_time: '0:3:51'
+      source: https://www.youtube.com/watch?v=DzTvQ7HyW6I
+      publication: Face the Nation
+      title: 'Full Interview: Dr. Anthony Fauci looks back on COVID-19 response'
+    - type: Video Media
+      est_time: '1899-12-30T08:11:52.000Z'
+      source: https://www.youtube.com/watch?v=rYZTN5NkxmQ
+      publication: CNN
+      title: Watch Dr. Sanjay Gupta go one-on-one with podcaster Joe Rogan
+    - type: Video Media
+      est_time: '1899-12-30T08:13:15.000Z'
+      source: https://www.youtube.com/watch?v=ATWjsT9bycc
+      publication: CNN
+      title: See Dr. Fauci's response to Joe Rogan's "bad" vaccine advice
     - type: Journal
       type-general: articles
       est_time: '2022-11-15T07:29:00.000Z'
@@ -154,6 +211,12 @@ references:
       source: https://www.phe.gov/emergency/events/COVID19/COVIDVaccinators/Pages/PREP-Act-Immunity-from-Liability-for-COVID-19-Vaccinators.aspx
       publication: HHS
       title: PREP Act Immunity from Liability for COVID-19 Vaccinators
+    - type: Video Government Media
+      est_time: '1899-12-30T08:29:22.000Z'
+      source: https://www.youtube.com/watch?v=E2yXwUm5TNs
+      publication: CBS News
+      title: 'New York City Mayor Bill de Blasio promotes a new incentive to get vaccinated:
+        Shake Shack'
     - type: Video
       type-general: videos
       est_time: '2022-11-15T00:34:18.000Z'
@@ -189,7 +252,7 @@ references:
       notes:
       source: https://www.youtube.com/watch?v=IR9rjRRcD2s
       publication: CBS Mornings
-      title: Walensky no risk for kids
+      title: CDC director endorses Pfizer's COVID vaccine for kids 5-11 years old
     - type: Government
       type-general: articles
       est_time: '1899-12-31T14:07:00.000Z'
@@ -258,7 +321,8 @@ references:
       est_time: '2022-11-15T00:41:54.000Z'
       notes:
       source: https://www.youtube.com/watch?v=PLo2Wwa3NNA
-      publication: ZDOGG MD YouTube channelOmicron Boosters, Kids' Vaccine & More (w/Dr. Paul Offit) Dr. OFFIT "worth it to vax kids"
+      publication: ZDOGG MD YouTube channel
+      title: Omicron Boosters, Kids' Vaccine & More (w/Dr. Paul Offit) Dr. OFFIT "worth it to vax kids"
     - type: Video
       type-general: videos
       est_time: '2022-11-15T00:42:25.000Z'
@@ -273,12 +337,47 @@ references:
       source: https://www.nejm.org/doi/full/10.1056/NEJMoa2203209?query=TOC&cid=NEJM+eToc%2C+July+21%2C+2022+DM1270826_NEJM_Non_Subscriber&bid=1076921524
       publication: New England Journal of Medicine
       title: Effectiveness of BNT162b2 Vaccine against Omicron in Children 5 to 11 Years of Age (Singapore Study)
+    - type: Video Media
+      est_time: '1899-12-30T08:54:32.000Z'
+      source: https://www.wnyc.org/story/inflation-woes-persist-despite-economic-growth/
+      publication: WNYC - The Brian Lehrer Show
+      title: The Brian Lehrer Show
+    - type: Video Media
+      est_time: '1899-12-30T08:56:08.000Z'
+      source: https://www.youtube.com/watch?v=ZEJufOyAbis
+      publication: CNN - New Day
+      title: CNN rolls the tape on Fox News hosts' anti-vaccine rhetoric
+    - type: Video Media
+      est_time: '1899-12-30T08:57:05.000Z 57:10'
+      source: https://www.youtube.com/watch?v=G0uEQYE6t3w
+      publication: CNN - Erin Burnett OutFront
+      title: '"Vaccines are the best citizenship"'
+    - type: Video Media
+      est_time: 00:58:40:10
+      source: https://www.youtube.com/watch?v=UM9JvYjPW6o
+      publication: Fox News
+      title: Trump urges Americans to get COVID vaccine in Fox News exclusive
+    - type: Video Government Media
+      est_time: '1899-12-30T08:58:39.000Z'
+      source: https://www.youtube.com/watch?v=uKdjHdU7yWU
+      publication: CNN - The Lead
+      title: "Biden: This a pandemic of the unvaccinated"
+    - type: Video Media
+      est_time: '1899-12-30T08:59:07.000Z'
+      source: https://www.youtube.com/watch?v=jDtUWXOmLLg&t=333s
+      publication: MSNBC - The Rachel Maddow Show
+      title: '"The virus stops with every vaccinated person."'
+    - type: Video Government Media
+      est_time: '1899-12-30T08:58:50.000Z'
+      source: https://www.youtube.com/watch?v=Ngv07ekWS4w
+      publication: MSNBC - The Rachel Maddow Show
+      title: 'Dr. Rochelle Walensky: "Vaccinated people don''t carry the virus"'
     - type: Video Government
       type-general: videos
       est_time: '2022-11-15T00:59:46.000Z'
       notes:
       source: https://www.youtube.com/watch?v=Sa0M8SLwNKQ
-      publication: The White House
+      publication: The White House YouTube channel
       title: Press Briefing. Fauci talks about nasal spread NOT equal in vax/unvax
     - type: Video Media Government
       type-general: videos
@@ -320,12 +419,8 @@ references:
       est_time: '2022-11-15T01:11:14.000Z'
       notes:
       source: https://youtu.be/7fQ6JklHjBc
-      publication: |-
-        Russell Brand
-        YouTube channel
-      title: |-
-        Russell Brand YouTube
-        FDA is funded by Pharma
+      publication: Russell Brand YouTube channel
+      title: FDA is funded by Pharma
     - type: Journal
       type-general: articles
       est_time: '2022-11-15T01:11:15.000Z'
@@ -347,6 +442,11 @@ references:
       source: https://www.youtube.com/watch?v=2C6524soTnA
       publication: Vinay Prasad MD MPH YouTube channel
       title: How the CDC Abandoned Science | My Article in Tablet Magazine
+    - type: Video Corporate Media
+      est_time: '1899-12-30T09:12:30.000Z'
+      source: https://www.youtube.com/watch?v=LaxlJXpwkzs
+      publication: GoLocal LIVE
+      title: 1998 Purdue Pharma marketing video
     - type: Journal
       type-general: articles
       est_time: '2022-11-15T01:11:46.000Z'
@@ -382,5 +482,4 @@ references:
       source: https://www.bmj.com/content/330/7488/396.short
       publication: British Medical Journal
       title: Association between suicide attempts and selective serotonin reuptake inhibitors
-
 
