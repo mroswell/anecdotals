@@ -13,6 +13,10 @@
     justify-content: flex-end!important;
 }
 
+.navbar-toggler {
+    display: none;
+}
+
 .navbar-nav .nav-link {
 	padding: 5px 15px!important;
 	text-transform: uppercase;
@@ -201,6 +205,9 @@ ul.dropdown-menu > li > a, .navbar ul ul ul.dropdown-menu li .nav-link {
             padding-left: 0;
             padding-right: 0;
         }
+    }
+    .navbar-toggler {
+        display: block;
     }
     .navbar-nav {
         text-align: center;
