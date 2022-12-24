@@ -13,5 +13,5 @@ cta:
   title : "Do you want to schedule a screening?"
   button:
     enable : true
-    label : "screenings"
-    link : "screenings"
+    label : "Host a Screening"
+    link : "host-screening"
