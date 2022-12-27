@@ -119,6 +119,12 @@ a{
 	}
 }
 
+@include desktop {
+	.section{
+		padding: 0;
+	}
+}
+
 .content {
   * {
     margin-bottom: 20px;
