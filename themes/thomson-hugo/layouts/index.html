@@ -18,7 +18,14 @@
 <!--                <iframe width="608" height="342" src="https://www.youtube.com/embed/t36HntCJf6Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>-->
 
                 <div class="embed-container">
-                    <iframe title="Anecdotals" width="560" height="315" src="https://video.anecdotalsmovie.com/videos/embed/8ff3b90a-8ca8-4026-bb84-aca6f46a688a?warningTitle=0&amp;peertubeLink=0&amp;p2p=0" frameborder="0" allowfullscreen="" sandbox="allow-same-origin allow-scripts allow-popups"></iframe>
+                    <div class="preview-image" onclick="previewImageClicked(this)">
+                        <img src="{{ `images/video-preview.jpg` | absURL }}" style="cursor:pointer" alt="Video preview" />
+
+                        <div class="play-button"></div>
+                    </div>
+                    <div style="display:none">
+                        <iframe title="Anecdotals" width="560" height="315" src="https://video.anecdotalsmovie.com/videos/embed/8ff3b90a-8ca8-4026-bb84-aca6f46a688a?warningTitle=0&amp;peertubeLink=0&amp;p2p=0&muted=1&autoplay=1" frameborder="0" allowfullscreen="" sandbox="allow-same-origin allow-scripts allow-popups"></iframe>
+                    </div>
                 </div>
 
 
