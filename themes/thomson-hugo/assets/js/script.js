@@ -2,6 +2,13 @@
 $(window).on('load', function () {
   $('.preloader').fadeOut(100);
 });
+
+
+async function previewImageClicked(el) {
+  el.nextElementSibling.style.display='block';
+  el.style.display='none';
+}
+
 //
 // (function ($) {
 //
