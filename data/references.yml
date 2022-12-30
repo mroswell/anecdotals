@@ -482,4 +482,18 @@ references:
       source: https://www.bmj.com/content/330/7488/396.short
       publication: British Medical Journal
       title: Association between suicide attempts and selective serotonin reuptake inhibitors
+    - type: Government Media
+      type-general: articles
+      est_time: '2022-11-15T01:13:56.000Z'
+      notes:
+      source: https://www.businessinsider.com/2-top-fda-officials-resigned-biden-booster-plan-reports-2021-9
+      publication: Business Insider
+      title: "2 top FDA officials resigned over the Biden administration's booster-shot plan, saying it insisted on the policy before the agency approved it, reports say"
+    - type: Government Media
+      type-general: articles
+      est_time: '2022-11-15T01:13:56.000Z'
+      notes:
+      source: https://www.dhs.gov/ntas/advisory/national-terrorism-advisory-system-bulletin-february-07-2022
+      publication: Department of Homeland Security
+      title: "Summary of Terrorism Threat to the U.S. Homeland"
 
