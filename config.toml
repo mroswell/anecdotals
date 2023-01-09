@@ -17,8 +17,8 @@ image = "images/anecdotals.jpeg"
 # css plugins
 [[params.plugins.css]]
 link = "plugins/bootstrap/bootstrap.min.css"
-# [[params.plugins.css]]
-# link = "plugins/slick/slick.css"
+[[params.plugins.css]]
+link = "plugins/slick/slick.css"
 [[params.plugins.css]]
 link = "plugins/themify/css/themify-icons.css"
 # [[params.plugins.css]]
@@ -38,8 +38,8 @@ link="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
 link = "plugins/jQuery/jquery.min.js"
 [[params.plugins.js]]
 link = "plugins/bootstrap/bootstrap.min.js"
-# [[params.plugins.js]]
-# link = "plugins/slick/slick.min.js"
+[[params.plugins.js]]
+link = "plugins/slick/slick.min.js"
 # [[params.plugins.js]]
 # link = "plugins/owl-carousel/owl.carousel.min.js"
 # [[params.plugins.js]]

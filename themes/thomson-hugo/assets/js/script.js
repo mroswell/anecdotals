@@ -9,6 +9,36 @@ async function previewImageClicked(el) {
   el.style.display='none';
 }
 
+
+//  post-slider-block
+function postSlider() {
+  $('.slider-block').slick({
+    dots: false,
+    arrows: true,
+    infinite: true,
+    speed: 400,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    adaptiveHeight: true,
+    autoplay: true,
+    prevArrow: $('.slider-prev'),
+    nextArrow: $('.slider-next'),
+    responsive: [{
+      breakpoint: 991,
+      settings: {
+        slidesToShow: 2
+      }
+    },
+      {
+        breakpoint: 767,
+        settings: {
+          slidesToShow: 1
+        }
+      }]
+  });
+}
+postSlider();
+
 //
 // (function ($) {
 //
