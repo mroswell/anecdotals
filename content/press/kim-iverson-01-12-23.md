@@ -7,5 +7,5 @@ type : "post"
 ---
 Jennifer Sharp's interview with Kim Iversen begins at 11:50.
 
-{{< photo-button "/images/news/iversen.png" "https://rumble.com/v20sio0-episode-17-jennifer-sharp-and-anecdotals-the-movie.html" >}}
+{{< photo-button "/images/news/iversen.png" "https://rumble.com/v253em4-the-kim-iversen-show-live-1-12-23.html" >}}
 
