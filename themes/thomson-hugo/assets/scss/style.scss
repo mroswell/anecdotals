@@ -103,3 +103,33 @@ blockquote p {
     position: absolute;
   }
 }
+
+.snipcart-product {
+  border-left: 2px solid #EAE9F6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  @media(max-width:991px){
+    border-top: 2px solid #EAE9F6;
+    border-left: 0;
+    padding-top: 1em;
+  }
+
+  & > .row {
+    @media(max-width:991px){
+      flex-flow: column-reverse;
+    }
+  }
+
+  button {
+    max-width: 100%;
+    padding: 14px 24px;
+  }
+
+  img {
+    @media(max-width:991px) {
+      max-height: 200px;
+    }
+  }
+}
