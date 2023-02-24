@@ -98,8 +98,8 @@ url = "press"
 weight = 7
 
 [[menu.main]]
-name = "Donate"
-url = "donate"
+name = "Support"
+url = "support"
 weight = 20
 
 [[menu.main]]
