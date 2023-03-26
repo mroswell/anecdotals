@@ -21,7 +21,7 @@
 
                 <ul class="list-inline mb-0">
                 {{range .Site.Params.social }}
-                <li class="list-inline-item"><a aria-label="{{ .arialabel}}" href="{{ .link | safeURL }}" target="_blank"><i style="vertical-align:bottom;" class="{{ .icon }} mr-3"></i></a>
+                <li class="list-inline-item"><a aria-label="{{ .arialabel}}" href="{{ .link | safeURL }}" target="_blank"><i style="vertical-align:bottom; font-size:16px" class="{{ .icon }} mr-3"></i></a>
                 </li>
                 {{ end }}
                 </ul>
@@ -38,15 +38,26 @@
               <div class="col-lg-6 snipcart-product">
                   <div class="row">
                       <div class="col-lg-6 d-flex flex-column align-items-center justify-content-center">
-                          <h3>Buy a DVD</h3>
-                          <h4 class="m-4">$25</h4>
+                          <strong>DVD &ndash; $25</strong>
 
-                          <button class="snipcart-add-item btn btn-main btn-sm btn-rounded"
+                          <button style="width:205px" class="snipcart-add-item btn btn-main btn-sm btn-rounded"
                                   data-item-id="anecdotals-dvd-25"
                                   data-item-price="25.00"
                                   data-item-image="/images/snipcart/DVD.jpg"
                                   data-item-name="Anecdotals DVD">
-                              Purchase Now
+                              Purchase DVD
+                              <i class="ti-angle-right ml-2"></i>
+                          </button>
+                          <br /><br />
+                          <strong>Blu-Ray Disc &ndash; $30</strong>
+
+
+                          <button style="width:205px" class="snipcart-add-item btn btn-main btn-sm btn-rounded"
+                                  data-item-id="anecdotals-blu-ray-30"
+                                  data-item-price="30.00"
+                                  data-item-image="/images/snipcart/DVD.jpg"
+                                  data-item-name="Anecdotals Blu-Ray Disc">
+                              Purchase Blu-Ray
                               <i class="ti-angle-right ml-2"></i>
                           </button>
                       </div>
