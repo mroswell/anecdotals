@@ -140,6 +140,6 @@ Contact Us
 
 ==========
 
-If you have any questions about these Terms and Conditions, You can contact us by email at: squarefilms2000@gmail.com
+If you have any questions about these Terms and Conditions, You can contact us by email at: AnecdotalsMovie@gmail.com
 
 
