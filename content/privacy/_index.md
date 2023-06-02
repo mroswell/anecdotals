@@ -216,4 +216,4 @@ Contact Us
 ==========
 
 
-If you have any questions about this Privacy Policy, You can contact us by email at: squarefilms2000@gmail.com
+If you have any questions about this Privacy Policy, You can contact us by email at: AnecdotalsMovie@gmail.com
