@@ -35,12 +35,6 @@
           <a href='{{ "/tags/" | relLangURL }}{{ . | urlize }}'>{{ $e | humanize }}</a>
           {{- end -}}
         </article>
-
-<!--        {{ if .Site.DisqusShortname }}-->
-<!--        <div class="comments bg-secondary p-4 mt-5">-->
-<!--          {{ template "_internal/disqus.html" }}-->
-<!--        </div>-->
-<!--        {{ end }}-->
       </div>
 
       {{ with .Params.exclude }}

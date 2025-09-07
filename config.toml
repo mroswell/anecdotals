@@ -4,7 +4,8 @@ languageCode = "en-us"
 theme = "thomson-hugo"
 title = "Anecdotals"
 summaryLength = "10"
-paginate = 20
+[pagination]
+pagerSize = 20
 
 
 # Banner
